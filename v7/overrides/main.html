@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block outdated %}
+    Dies ist die Dokumentation einer älteren Datenstrukturversion.
+    <a href="{{ '../' ~ base_url }}">
+        <strong>Klicken Sie hier für die neueste Version.</strong>
+    </a>
+{% endblock %}

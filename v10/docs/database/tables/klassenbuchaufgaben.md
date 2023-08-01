@@ -1,0 +1,77 @@
+# Table **KlassenbuchAufgaben**
+
+## Columns
+
+This table contains 10 columns.
+
+**`Mandant`**
+
+:   [`INTEGER`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
+
+    Verweis auf Tabelle [Mandanten](../../tables/mandanten)
+
+**`ID`**
+
+:   [`INTEGER`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
+
+    Mandantenbezogene, eindeutige ID
+
+**`Klassenbucheintrag`**
+
+:   [`INTEGER`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
+
+**`Stoffverteilung`**
+
+:   [`INTEGER`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
+
+**`Aufgabentext`**
+
+:   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
+
+**`Bemerkung`**
+
+:   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
+
+**`LogErsteintrag`**
+
+:   [`TIMESTAMP`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-datetime)
+
+**`LogErsteintrag_Benutzer`**
+
+:   [`VARCHAR(20)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
+
+**`LogLetzteAenderung`**
+
+:   [`TIMESTAMP`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-datetime)
+
+**`LogLetzteAenderung_Benutzer`**
+
+:   [`VARCHAR(20)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
+
+## Primary key
+
+This table has a primary key.
+
+**`KlassenbuchAufgaben`**
+
+:   `Mandant, ID`
+
+## Foreign keys
+
+This table has one foreign key.
+
+**`FK_KBA_EINTRAG`**
+
+:   `Klassenbucheintrag, Mandant` » [`Klassenbuch (ID, Mandant)`](../../tables/klassenbuch) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
+
+## Indices
+
+This table has 2 indices.
+
+**`FK_KBA_EINTRAG`**
+
+:   `Mandant, Klassenbucheintrag`
+
+**`PK_KLASSENBUCHEAUFGABEN`**
+
+:   `Mandant, ID`

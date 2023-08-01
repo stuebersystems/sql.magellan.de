@@ -1,0 +1,81 @@
+pool:
+  vmImage: 'windows-2022'
+    
+variables:
+- group: 'github-config'
+    
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+    addToPath: true
+    architecture: 'x64'
+- task: PowerShell@2
+  displayName: 'Git configuration'
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetType: 'inline'
+    script: |
+      git config user.name ci-bot
+      git config user.email ci-bot@stueber.de
+    pwsh: true
+- task: PowerShell@2
+  displayName: Install MkDocs + Mike
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetType: 'inline'
+    script: |
+      pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin mkdocs-minify-plugin mike --disable-pip-version-check
+    failOnStderr: true
+    pwsh: true
+    workingDirectory: '$(Build.SourcesDirectory)'
+- task: PowerShell@2
+  displayName: Build v7 with Mike
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetType: 'inline'
+    script: |
+      mike deploy v7
+    pwsh: true
+    workingDirectory: '$(Build.SourcesDirectory)/v7'
+- task: PowerShell@2
+  displayName: Build v8 with Mike
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetType: 'inline'
+    script: |
+      mike deploy v8
+    pwsh: true
+    workingDirectory: '$(Build.SourcesDirectory)/v8'
+- task: PowerShell@2
+  displayName: Build v9 with Mike
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetType: 'inline'
+    script: |
+      mike deploy v9
+    pwsh: true
+    workingDirectory: '$(Build.SourcesDirectory)/v9'
+- task: PowerShell@2
+  displayName: Build v10 with Mike
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetType: 'inline'
+    script: |
+      mike deploy v10 latest
+    pwsh: true
+    workingDirectory: '$(Build.SourcesDirectory)/v10'
+- task: PowerShell@2
+  displayName: 'Push to GitHub'
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetType: 'inline'
+    script: |
+      git remote add github https://$(PAT)@github.com/stuebersystems/sql.magellan.de.git
+      git fetch github
+      git checkout .
+      git push github HEAD:main
+      git push --tags github HEAD:main
+      git checkout gh-pages
+      git push github HEAD:gh-pages -f
+    pwsh: true
