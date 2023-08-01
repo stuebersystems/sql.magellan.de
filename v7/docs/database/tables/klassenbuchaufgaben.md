@@ -1,8 +1,8 @@
-# Table **KlassenbuchAufgaben**
+# Tabelle **KlassenbuchAufgaben**
 
-## Columns
+## Spalten
 
-This table contains 10 columns.
+Diese Tabelle hat 10 Spalten.
 
 **`Mandant`**
 
@@ -48,17 +48,17 @@ This table contains 10 columns.
 
 :   [`VARCHAR(20)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`KlassenbuchAufgaben`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_KBA_EINTRAG`**
 

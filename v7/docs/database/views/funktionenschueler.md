@@ -1,6 +1,6 @@
-# View **FunktionenSchueler**
+# Ansicht **FunktionenSchueler**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -56,9 +56,9 @@
       NOT "Funktion8" IS NULL
     ```
 
-## Columns
+## Spalten
 
-This view contains 3 columns.
+Diese Ansicht hat 3 Spalten.
 
 **`Mandant`**
 

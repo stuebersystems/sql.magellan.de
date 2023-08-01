@@ -1,8 +1,8 @@
-# Table **tblAuswahlVerlage**
+# Tabelle **tblAuswahlVerlage**
 
-## Columns
+## Spalten
 
-This table contains 2 columns.
+Diese Tabelle hat 2 Spalten.
 
 **`Benutzer`**
 

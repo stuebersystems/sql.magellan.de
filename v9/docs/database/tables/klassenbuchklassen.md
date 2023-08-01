@@ -1,8 +1,8 @@
-# Table **KlassenbuchKlassen**
+# Tabelle **KlassenbuchKlassen**
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`Mandant`**
 
@@ -30,25 +30,25 @@ This table contains 5 columns.
 
     Verweis auf Tabelle [Faecher](../../tables/faecher)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`KlassenbuchKlassen`**
 
 :   `Mandant, Klassenbucheintrag, Klasse`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_KBK_KLASSE`**
 
 :   `Klasse, Mandant` » [`Klassen (ID, Mandant)`](../../tables/klassen) · `ON UPDATE RESTRICT` · `ON DELETE RESTRICT`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_KBK_EINTRAG`**
 

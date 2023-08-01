@@ -1,10 +1,10 @@
-# Table **Klassen**
+# Tabelle **Klassen**
 
 Speichert die Klassen in MAGELLAN
 
-## Columns
+## Spalten
 
-This table contains 55 columns.
+Diese Tabelle hat 55 Spalten.
 
 **`Mandant`**
 
@@ -74,7 +74,7 @@ This table contains 55 columns.
 
     Klassenart
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Standardklasse
     1 | Ganztagsklasse
@@ -91,7 +91,7 @@ This table contains 55 columns.
 
     Notenart
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Notenwerte
     1 | Punktwerte
@@ -167,7 +167,7 @@ This table contains 55 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -176,7 +176,7 @@ This table contains 55 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -189,7 +189,7 @@ This table contains 55 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -320,7 +320,7 @@ This table contains 55 columns.
 
     Soll bei der Anzeige der Stundenplans der Schüler der Klasse der individuelle Schülerplan anstelle des Klassenplan angezeigt werden?
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -337,17 +337,17 @@ This table contains 55 columns.
 
     Verweis auf Tabelle [Zeitraeume](../../tables/zeitraeume)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Klassen`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 26 Fremdschlüssel.
 
 **`FK_KLASSEN_BEHINDERUNG`**
 
@@ -453,9 +453,9 @@ This table has one foreign key.
 
 :   `FoerderSchwerpunkt2` » [`FoerderSchwerpunkte (Kuerzel)`](../../tables/foerderschwerpunkte) · `ON UPDATE RESTRICT` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 28 indices.
+Diese Tabelle hat 28 Indizes.
 
 **`FK_KLASSEN_ABTEILUNG`**
 

@@ -1,8 +1,8 @@
-# Table **ASVKategorien**
+# Tabelle **ASVKategorien**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`Kuerzel`**
 
@@ -50,25 +50,25 @@ This table contains 8 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`ASVKategorien`**
 
 :   `Kuerzel`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_ASVKATEGORIEN_GRUPPE`**
 
 :   `Gruppe` » [`ASVKategoriegruppen (Kuerzel)`](../../tables/asvkategoriegruppen) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_ASVKATEGORIEN_ART`**
 

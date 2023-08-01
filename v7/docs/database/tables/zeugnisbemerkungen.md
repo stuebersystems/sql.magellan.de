@@ -1,8 +1,8 @@
-# Table **Zeugnisbemerkungen**
+# Tabelle **Zeugnisbemerkungen**
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`Mandant`**
 
@@ -30,17 +30,17 @@ This table contains 5 columns.
 
     Datensatzpositionierung
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Zeugnisbemerkungen`**
 
 :   `Mandant, Kuerzel`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_ZEUGNISBEM_MANDANT`**
 

@@ -1,6 +1,6 @@
-# View **BewerbungszieleSchueler**
+# Ansicht **BewerbungszieleSchueler**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -36,9 +36,9 @@
         NOT "Bewerbungsziel4" IS NULL
     ```
 
-## Columns
+## Spalten
 
-This view contains 4 columns.
+Diese Ansicht hat 4 Spalten.
 
 **`Mandant`**
 

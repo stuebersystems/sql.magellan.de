@@ -1,8 +1,8 @@
-# Table **SchuelerBBS**
+# Tabelle **SchuelerBBS**
 
-## Columns
+## Spalten
 
-This table contains 77 columns.
+Diese Tabelle hat 77 Spalten.
 
 **`Mandant`**
 
@@ -336,17 +336,17 @@ This table contains 77 columns.
 
 :   [`VARCHAR(20)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerBBS`**
 
 :   `Mandant, Schueler`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 11 Fremdschlüssel.
 
 **`FK_SCHUELERBBSD_J2SZ`**
 
@@ -392,9 +392,9 @@ This table has one foreign key.
 
 :   `J1_SchuelerZeitraum, Mandant` » [`SchuelerZeitraeume (ID, Mandant)`](../../tables/schuelerzeitraeume) · `ON UPDATE NO ACTION` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 12 indices.
+Diese Tabelle hat 12 Indizes.
 
 **`FK_SCHUELERBBSD_J1SZ`**
 

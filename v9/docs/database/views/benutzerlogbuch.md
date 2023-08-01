@@ -1,6 +1,6 @@
-# View **BenutzerLogbuch**
+# Ansicht **BenutzerLogbuch**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -18,9 +18,9 @@
       ("Benutzer" = USER) or (USER = 'SYSDBA') or (USER = 'DBADMIN')
     ```
 
-## Columns
+## Spalten
 
-This view contains 5 columns.
+Diese Ansicht hat 5 Spalten.
 
 **`ID`**
 

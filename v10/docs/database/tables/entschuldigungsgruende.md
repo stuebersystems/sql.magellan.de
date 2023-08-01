@@ -1,8 +1,8 @@
-# Table **Entschuldigungsgruende**
+# Tabelle **Entschuldigungsgruende**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Kuerzel`**
 
@@ -44,25 +44,25 @@ This table contains 7 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Entschuldigungsgruende`**
 
 :   `Kuerzel`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_EG_KATEGORIE`**
 
 :   `Kategorie` » [`Entschuldigungskategorien (Kuerzel)`](../../tables/entschuldigungskategorien) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_EG_KATEGORIE`**
 

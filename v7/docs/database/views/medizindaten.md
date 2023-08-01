@@ -1,6 +1,6 @@
-# View **MedizinDaten**
+# Ansicht **MedizinDaten**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -25,9 +25,9 @@
       FROM "PersonenMedizinDaten" P
     ```
 
-## Columns
+## Spalten
 
-This view contains 13 columns.
+Diese Ansicht hat 13 Spalten.
 
 **`Mandant`**
 

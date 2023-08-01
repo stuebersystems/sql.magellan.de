@@ -1,8 +1,8 @@
-# Table **SchuelerSchulen**
+# Tabelle **SchuelerSchulen**
 
-## Columns
+## Spalten
 
-This table contains 17 columns.
+Diese Tabelle hat 17 Spalten.
 
 **`Mandant`**
 
@@ -80,7 +80,7 @@ This table contains 17 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -89,7 +89,7 @@ This table contains 17 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Einschulung in die Primarstufe
     1 | Übergang in die SEK I
@@ -103,17 +103,17 @@ This table contains 17 columns.
 
     Verweis auf Tabelle [Klassenstufen](../../tables/klassenstufen)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerSchulen`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 7 Fremdschlüssel.
 
 **`FK_SCHUELERS_SCHUELER`**
 
@@ -143,9 +143,9 @@ This table has one foreign key.
 
 :   `Herkunft` » [`Herkunftsarten (Kuerzel)`](../../tables/herkunftsarten) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 8 indices.
+Diese Tabelle hat 8 Indizes.
 
 **`FK_SCHUELERS_HERKUNFT`**
 

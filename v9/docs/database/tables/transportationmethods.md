@@ -1,8 +1,8 @@
-# Table **TransportationMethods**
+# Tabelle **TransportationMethods**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Mandant`**
 
@@ -38,17 +38,17 @@ This table contains 7 columns.
 
 :   [`VARCHAR(3)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`TransportationMethods`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_TRANSPORTMETHODS`**
 

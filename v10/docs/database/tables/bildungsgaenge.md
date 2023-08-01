@@ -1,8 +1,8 @@
-# Table **Bildungsgaenge**
+# Tabelle **Bildungsgaenge**
 
-## Columns
+## Spalten
 
-This table contains 18 columns.
+Diese Tabelle hat 18 Spalten.
 
 **`Kuerzel`**
 
@@ -96,7 +96,7 @@ This table contains 18 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Interner Schlüssel
     1 | Externer Schlüssel
@@ -114,17 +114,17 @@ This table contains 18 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Bildungsgaenge`**
 
 :   `Kuerzel`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 9 Fremdschlüssel.
 
 **`FK_BILDUNGSGAENGE_FACHRICHTUNG`**
 
@@ -162,9 +162,9 @@ This table has one foreign key.
 
 :   `Berufsfeld` » [`Berufsfelder (Kuerzel)`](../../tables/berufsfelder) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 11 indices.
+Diese Tabelle hat 11 Indizes.
 
 **`FK_BILDUNGSGAENGE_BERUFSFELD`**
 

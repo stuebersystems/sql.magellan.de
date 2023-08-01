@@ -1,8 +1,8 @@
-# Table **GradeEntries**
+# Tabelle **GradeEntries**
 
-## Columns
+## Spalten
 
-This table contains 9 columns.
+Diese Tabelle hat 9 Spalten.
 
 **`Mandant`**
 
@@ -58,25 +58,25 @@ This table contains 9 columns.
 
     Interner Code\. Mögliche Werte werden zukünftig noch festgelegt
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`GradeEntries`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_GRADEENTRIES_GRADESSYSTEM`**
 
 :   `GradeSystem, Mandant` » [`GradeSystems (ID, Mandant)`](../../tables/gradesystems) · `ON UPDATE CASCADE` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_GRADEENTRIES_GRADESSYSTEM`**
 

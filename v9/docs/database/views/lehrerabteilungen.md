@@ -1,6 +1,6 @@
-# View **LehrerAbteilungen**
+# Ansicht **LehrerAbteilungen**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -22,9 +22,9 @@
       WHERE NOT "Abteilung3" IS NULL
     ```
 
-## Columns
+## Spalten
 
-This view contains 3 columns.
+Diese Ansicht hat 3 Spalten.
 
 **`Mandant`**
 

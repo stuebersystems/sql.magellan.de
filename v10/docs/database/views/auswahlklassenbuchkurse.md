@@ -1,6 +1,6 @@
-# View **AuswahlKlassenbuchKurse**
+# Ansicht **AuswahlKlassenbuchKurse**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -19,9 +19,9 @@
        B."Kennung" = USER
     ```
 
-## Columns
+## Spalten
 
-This view contains 10 columns.
+Diese Ansicht hat 10 Spalten.
 
 **`Benutzer`**
 

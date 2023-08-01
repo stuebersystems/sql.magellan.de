@@ -1,8 +1,8 @@
-# Table **tblAuswahlBetriebe**
+# Tabelle **tblAuswahlBetriebe**
 
-## Columns
+## Spalten
 
-This table contains 4 columns.
+Diese Tabelle hat 4 Spalten.
 
 **`Benutzer`**
 

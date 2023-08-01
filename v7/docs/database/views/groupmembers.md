@@ -1,6 +1,6 @@
-# View **GroupMembers**
+# Ansicht **GroupMembers**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -75,9 +75,9 @@
         GM."MemberType" = 4
     ```
 
-## Columns
+## Spalten
 
-This view contains 22 columns.
+Diese Ansicht hat 22 Spalten.
 
 **`Mandant`**
 

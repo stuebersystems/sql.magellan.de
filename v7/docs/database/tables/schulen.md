@@ -1,8 +1,8 @@
-# Table **Schulen**
+# Tabelle **Schulen**
 
-## Columns
+## Spalten
 
-This table contains 25 columns.
+Diese Tabelle hat 25 Spalten.
 
 **`ID`**
 
@@ -82,7 +82,7 @@ This table contains 25 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Bicht aktiv
     1 | Aktiv
@@ -91,7 +91,7 @@ This table contains 25 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `DEFAULT 'N'`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -120,17 +120,17 @@ This table contains 25 columns.
 
 :   [`VARCHAR(20)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Schulen`**
 
 :   `ID`
 
-## Indices
+## Indizes
 
-This table has 9 indices.
+Diese Tabelle hat 9 Indizes.
 
 **`FK_SCHULEN_GEMEINDE`**
 

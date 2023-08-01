@@ -1,8 +1,8 @@
-# Table **Version**
+# Tabelle **Version**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`ID`**
 
@@ -26,7 +26,7 @@ This table contains 8 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Keine Angabe
     1 | Standard\-Beispieldatenbank
@@ -35,7 +35,7 @@ This table contains 8 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Keine Angabe
     1 | Zeitraum Standard\-Beispieldatenbank angepasst
@@ -48,17 +48,17 @@ This table contains 8 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Version`**
 
 :   `ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_VERSION`**
 

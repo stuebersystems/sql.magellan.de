@@ -1,8 +1,8 @@
-# Table **ASVBewertungen**
+# Tabelle **ASVBewertungen**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`Kuerzel`**
 
@@ -48,17 +48,17 @@ This table contains 8 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`ASVBewertungen`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_ASVBEWERTUNGEN_TYP`**
 

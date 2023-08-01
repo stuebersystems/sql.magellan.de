@@ -1,8 +1,8 @@
-# Table **GradeTypes**
+# Tabelle **GradeTypes**
 
-## Columns
+## Spalten
 
-This table contains 6 columns.
+Diese Tabelle hat 6 Spalten.
 
 **`Mandant`**
 
@@ -40,7 +40,7 @@ This table contains 6 columns.
 
     Interner Code
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     ASV | Arbeits\- und Sozialverhalten
     MN | Mündliche Note
@@ -49,17 +49,17 @@ This table contains 6 columns.
     SZN | Schriftliche Zeugnisnote
     ZN | Zeugnisnote
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`GradeTypes`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_GRADETYPES`**
 

@@ -1,8 +1,8 @@
-# Table **Gemeinden**
+# Tabelle **Gemeinden**
 
-## Columns
+## Spalten
 
-This table contains 4 columns.
+Diese Tabelle hat 4 Spalten.
 
 **`Schluessel`**
 
@@ -28,17 +28,17 @@ This table contains 4 columns.
 
     Schlüssel der Verbandsgemeinde
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Gemeinden`**
 
 :   `Schluessel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_GEMEINDEN`**
 

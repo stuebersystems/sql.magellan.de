@@ -1,8 +1,8 @@
-# Table **AbschluesseExtern**
+# Tabelle **AbschluesseExtern**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`Kuerzel`**
 
@@ -28,7 +28,7 @@ This table contains 8 columns.
 
     Abschlußkategorie
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Allgemeinbildender Abschluss
     1 | Berufsbildender Abschluss
@@ -54,17 +54,17 @@ This table contains 8 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`AbschluesseExtern`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_ABSCHLUESSEEXTERN`**
 

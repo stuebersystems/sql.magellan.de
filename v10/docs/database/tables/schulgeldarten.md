@@ -1,8 +1,8 @@
-# Table **Schulgeldarten**
+# Tabelle **Schulgeldarten**
 
-## Columns
+## Spalten
 
-This table contains 6 columns.
+Diese Tabelle hat 6 Spalten.
 
 **`ID`**
 
@@ -32,17 +32,17 @@ This table contains 6 columns.
 
 :   [`VARCHAR(3)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Schulgeldarten`**
 
 :   `ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_SCHULGELDARTEN`**
 

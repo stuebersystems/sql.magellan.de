@@ -1,8 +1,8 @@
-# Table **StudentRoutes**
+# Tabelle **StudentRoutes**
 
-## Columns
+## Spalten
 
-This table contains 9 columns.
+Diese Tabelle hat 9 Spalten.
 
 **`Mandant`**
 
@@ -52,17 +52,17 @@ This table contains 9 columns.
 
 :   [`FLOAT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-floattypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`StudentRoutes`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 4 Fremdschlüssel.
 
 **`FK_STUDENTROUTES_LINES`**
 
@@ -80,9 +80,9 @@ This table has one foreign key.
 
 :   `Destination, Mandant` » [`TransportationStops (ID, Mandant)`](../../tables/transportationstops) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 5 indices.
+Diese Tabelle hat 5 Indizes.
 
 **`FK_STUDENTROUTES_DESTINATION`**
 

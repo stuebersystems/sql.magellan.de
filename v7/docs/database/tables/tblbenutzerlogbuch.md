@@ -1,10 +1,10 @@
-# Table **tblBenutzerLogbuch**
+# Tabelle **tblBenutzerLogbuch**
 
 Grundlage ist die Tabelle [tblBenutzerLogbuch](../../tables/tblbenutzerlogbuch)\.
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`ID`**
 
@@ -28,17 +28,17 @@ This table contains 5 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`tblBenutzerLogbuch`**
 
 :   `ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_BENUTZERLOGBUCH`**
 

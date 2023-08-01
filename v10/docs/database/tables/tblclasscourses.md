@@ -1,10 +1,10 @@
-# Table **tblClassCourses**
+# Tabelle **tblClassCourses**
 
 Grundlage sind die Tabellen [KlassenZeitraeume](../../tables/klassenzeitraeume), [tblClassCourses](../../tables/tblclasscourses) und [tblCourses](../../tables/tblcourses)
 
-## Columns
+## Spalten
 
-This table contains 6 columns.
+Diese Tabelle hat 6 Spalten.
 
 **`Mandant`**
 
@@ -38,17 +38,17 @@ This table contains 6 columns.
 
     Verweis auf Tabelle [tblCourses](../../tables/tblcourses)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`tblClassCourses`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_CLASSCOURSE_COURSE`**
 
@@ -58,9 +58,9 @@ This table has one foreign key.
 
 :   `ClassTerm, Mandant` » [`KlassenZeitraeume (ID, Mandant)`](../../tables/klassenzeitraeume) · `ON UPDATE CASCADE` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_CLASSCOURSE_CLASSTERM`**
 

@@ -1,10 +1,10 @@
-# Table **SchuelerBesonderheiten**
+# Tabelle **SchuelerBesonderheiten**
 
 In dieser Tabelle werden die Werte aus der Schülerbemerkungsliste und der Besonderheitenliste aus Schüler > Merkmale gespeichert\. Die Besonderheiten haben als Filterkriterium einen Wert aus dem Schlüsselverzeichnis [Besonderheiten](../../tables/besonderheiten) zugeordnet\. Für Bemerkungen ist dieses Feld immer leer\.
 
-## Columns
+## Spalten
 
-This table contains 11 columns.
+Diese Tabelle hat 11 Spalten.
 
 **`Mandant`**
 
@@ -62,17 +62,17 @@ This table contains 11 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerBesonderheiten`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_SCHUELERBESON_SCHUELER`**
 
@@ -82,9 +82,9 @@ This table has one foreign key.
 
 :   `Besonderheit, Mandant` » [`Besonderheiten (ID, Mandant)`](../../tables/besonderheiten) · `ON UPDATE RESTRICT` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_SCHUELERBESON_BESONDERHEIT`**
 

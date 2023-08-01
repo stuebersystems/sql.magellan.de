@@ -1,8 +1,8 @@
-# Table **SchuelerSchulgeld**
+# Tabelle **SchuelerSchulgeld**
 
-## Columns
+## Spalten
 
-This table contains 10 columns.
+Diese Tabelle hat 10 Spalten.
 
 **`Mandant`**
 
@@ -52,25 +52,25 @@ This table contains 10 columns.
 
 :   [`DATE`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-datetime)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerSchulgeld`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_SCHUELERSCHULGELD_SCHUELER`**
 
 :   `Mandant, Schueler` » [`Schueler (ID, Mandant)`](../../tables/schueler) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_SCHUELERSCHULGELD_ARTEN`**
 

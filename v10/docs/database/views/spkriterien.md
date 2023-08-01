@@ -1,6 +1,6 @@
-# View **SPKriterien**
+# Ansicht **SPKriterien**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -29,9 +29,9 @@
       FROM "SchuelerPruefungen"
     ```
 
-## Columns
+## Spalten
 
-This view contains 7 columns.
+Diese Ansicht hat 7 Spalten.
 
 **`Mandant`**
 

@@ -1,8 +1,8 @@
-# Table **MandantenMerkmale**
+# Tabelle **MandantenMerkmale**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Kuerzel`**
 
@@ -28,7 +28,7 @@ This table contains 7 columns.
 
     Zuordnung des Merkmals
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Merkmal A1
     1 | Merkmal A2
@@ -53,17 +53,17 @@ This table contains 7 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`MandantenMerkmale`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_MANDANTENMERKMALE`**
 

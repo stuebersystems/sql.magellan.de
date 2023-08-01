@@ -1,8 +1,8 @@
-# Table **tblAuswahlKlassenbuchKurse**
+# Tabelle **tblAuswahlKlassenbuchKurse**
 
-## Columns
+## Spalten
 
-This table contains 10 columns.
+Diese Tabelle hat 10 Spalten.
 
 **`Benutzer`**
 

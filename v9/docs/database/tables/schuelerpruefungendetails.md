@@ -1,8 +1,8 @@
-# Table **SchuelerPruefungenDetails**
+# Tabelle **SchuelerPruefungenDetails**
 
-## Columns
+## Spalten
 
-This table contains 30 columns.
+Diese Tabelle hat 30 Spalten.
 
 **`Mandant`**
 
@@ -170,17 +170,17 @@ This table contains 30 columns.
 
 :   [`VARCHAR(8)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerPruefungenDetails`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 20 Fremdschlüssel.
 
 **`FK_SCHPRUEFDET_EN_UART1`**
 
@@ -262,9 +262,9 @@ This table has one foreign key.
 
 :   `VN_Unterrichtsart` » [`Unterrichtsarten (Kuerzel)`](../../tables/unterrichtsarten) · `ON UPDATE RESTRICT` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 22 indices.
+Diese Tabelle hat 22 Indizes.
 
 **`FK_SCHPRUEFDET_EN_NOTE1`**
 

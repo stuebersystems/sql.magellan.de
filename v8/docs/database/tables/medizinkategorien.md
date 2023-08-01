@@ -1,8 +1,8 @@
-# Table **MedizinKategorien**
+# Tabelle **MedizinKategorien**
 
-## Columns
+## Spalten
 
-This table contains 6 columns.
+Diese Tabelle hat 6 Spalten.
 
 **`Mandant`**
 
@@ -38,17 +38,17 @@ This table contains 6 columns.
 
 :   [`INTEGER`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`MedizinKategorien`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_MEDIZINKATEGORIEN`**
 

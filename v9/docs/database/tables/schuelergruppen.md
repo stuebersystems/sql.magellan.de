@@ -1,8 +1,8 @@
-# Table **Schuelergruppen**
+# Tabelle **Schuelergruppen**
 
-## Columns
+## Spalten
 
-This table contains 6 columns.
+Diese Tabelle hat 6 Spalten.
 
 **`Mandant`**
 
@@ -32,17 +32,17 @@ This table contains 6 columns.
 
 :   [`VARCHAR(150)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Schuelergruppen`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_SGRUPPEN_UEINHEITLEHR`**
 

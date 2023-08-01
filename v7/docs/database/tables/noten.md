@@ -1,8 +1,8 @@
-# Table **Noten**
+# Tabelle **Noten**
 
-## Columns
+## Spalten
 
-This table contains 11 columns.
+Diese Tabelle hat 11 Spalten.
 
 **`Mandant`**
 
@@ -34,7 +34,7 @@ This table contains 11 columns.
 
     Notenart
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Notenwert
     1 | Punktwert
@@ -74,17 +74,17 @@ This table contains 11 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Noten`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_NOTEN_MANDANT`**
 

@@ -1,8 +1,8 @@
-# Table **SchuelerABIZeugnisbemerkungen**
+# Tabelle **SchuelerABIZeugnisbemerkungen**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Mandant`**
 
@@ -42,17 +42,17 @@ This table contains 7 columns.
 
 :   [`VARCHAR(8)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerABIZeugnisbemerkungen`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_SCHUELERABI_SCHUELERZEITR`**
 
@@ -62,9 +62,9 @@ This table has one foreign key.
 
 :   `Mandant, Schueler` » [`SchuelerABI (Mandant, Schueler)`](../../tables/schuelerabi) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_SCHUELERABIB_ABI`**
 

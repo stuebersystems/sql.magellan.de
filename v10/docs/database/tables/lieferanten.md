@@ -1,8 +1,8 @@
-# Table **Lieferanten**
+# Tabelle **Lieferanten**
 
-## Columns
+## Spalten
 
-This table contains 18 columns.
+Diese Tabelle hat 18 Spalten.
 
 **`ID`**
 
@@ -80,25 +80,25 @@ This table contains 18 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Lieferanten`**
 
 :   `ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_LIEFERANTEN_BANK`**
 
 :   `Bank` » [`Banken (ID)`](../../tables/banken) · `ON UPDATE RESTRICT` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_LIEFERANTEN_BANK`**
 

@@ -1,8 +1,8 @@
-# Table **KlassenZeitraeume**
+# Tabelle **KlassenZeitraeume**
 
-## Columns
+## Spalten
 
-This table contains 19 columns.
+Diese Tabelle hat 19 Spalten.
 
 **`Mandant`**
 
@@ -112,17 +112,17 @@ This table contains 19 columns.
 
     Verweis auf Tabelle [Raeume](../../tables/raeume)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`KlassenZeitraeume`**
 
 :   `Mandant, Klasse, Zeitraum`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 13 Fremdschlüssel.
 
 **`FK_KLASSENZEITRAEUME_ELTERN2`**
 
@@ -176,9 +176,9 @@ This table has one foreign key.
 
 :   `Zeitraum` » [`Zeitraeume (ID)`](../../tables/zeitraeume) · `ON UPDATE RESTRICT` · `ON DELETE RESTRICT`
 
-## Indices
+## Indizes
 
-This table has 16 indices.
+Diese Tabelle hat 16 Indizes.
 
 **`FK_KLASSENZEITRAEUME_ELTERN1`**
 

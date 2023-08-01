@@ -1,8 +1,8 @@
-# Table **SchuelerFoerderungen**
+# Tabelle **SchuelerFoerderungen**
 
-## Columns
+## Spalten
 
-This table contains 15 columns.
+Diese Tabelle hat 15 Spalten.
 
 **`Mandant`**
 
@@ -58,7 +58,7 @@ This table contains 15 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -85,17 +85,17 @@ This table contains 15 columns.
 
 :   [`DATE`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-datetime)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerFoerderungen`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 5 Fremdschlüssel.
 
 **`FK_SCHUELERFOERDER_BEDARF`**
 
@@ -117,9 +117,9 @@ This table has one foreign key.
 
 :   `Schwerpunkt2` » [`FoerderSchwerpunkte (Kuerzel)`](../../tables/foerderschwerpunkte) · `ON UPDATE NO ACTION` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 7 indices.
+Diese Tabelle hat 7 Indizes.
 
 **`FK_SCHUELERFOERDER_AUSGLEICH`**
 

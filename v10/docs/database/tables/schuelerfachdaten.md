@@ -1,8 +1,8 @@
-# Table **SchuelerFachdaten**
+# Tabelle **SchuelerFachdaten**
 
-## Columns
+## Spalten
 
-This table contains 49 columns.
+Diese Tabelle hat 49 Spalten.
 
 **`Mandant`**
 
@@ -224,7 +224,7 @@ This table contains 49 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -237,7 +237,7 @@ This table contains 49 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Mahnung
     1 | Nachmahnung
@@ -265,7 +265,7 @@ This table contains 49 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -284,23 +284,23 @@ This table contains 49 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     P | Bestanden
     F | Nicht bestanden
     N | Nicht belegt
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerFachdaten`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 28 Fremdschlüssel.
 
 **`FK_SCHUELERFACHDATEN_EN1`**
 
@@ -414,9 +414,9 @@ This table has one foreign key.
 
 :   `Bilingual` » [`Kurssprachen (Kuerzel)`](../../tables/kurssprachen) · `ON UPDATE CASCADE` · `ON DELETE RESTRICT`
 
-## Indices
+## Indizes
 
-This table has 29 indices.
+Diese Tabelle hat 29 Indizes.
 
 **`FK_SCHUELERFACHDATEN_BILING`**
 

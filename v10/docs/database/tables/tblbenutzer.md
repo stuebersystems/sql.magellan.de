@@ -1,8 +1,8 @@
-# Table **tblBenutzer**
+# Tabelle **tblBenutzer**
 
-## Columns
+## Spalten
 
-This table contains 28 columns.
+Diese Tabelle hat 28 Spalten.
 
 **`Mandant`**
 
@@ -40,7 +40,7 @@ This table contains 28 columns.
 
     Rechte für Schulverwaltung
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Schulleitung1
     1 | Sekretatiat1
@@ -60,7 +60,7 @@ This table contains 28 columns.
 
     für Medienverwaltung
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Schulleitung
     1 | Bibliothekar
@@ -125,7 +125,7 @@ This table contains 28 columns.
 
     Teilnahme in MyMAGELLAN
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | \(Kein Teilnehmer\)
     1 | Teilnehmer
@@ -158,7 +158,7 @@ This table contains 28 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Inaktiv
     1 | Aktiv
@@ -167,17 +167,17 @@ This table contains 28 columns.
 
 :   [`VARCHAR(100)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`tblBenutzer`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`IDX_Benutzer_Kennung`**
 

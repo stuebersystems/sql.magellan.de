@@ -1,8 +1,8 @@
-# Table **GradeSystems**
+# Tabelle **GradeSystems**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`Mandant`**
 
@@ -38,7 +38,7 @@ This table contains 8 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL` · `DEFAULT 0`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Zahlen
     1 | Texte
@@ -55,17 +55,17 @@ This table contains 8 columns.
 
     Interner Code\. Mögliche Werte werden zukünftig noch festgelegt
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`GradeSystems`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_GRADESYSTEMS`**
 

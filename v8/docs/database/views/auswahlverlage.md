@@ -1,6 +1,6 @@
-# View **AuswahlVerlage**
+# Ansicht **AuswahlVerlage**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -18,9 +18,9 @@
       B."Kennung" = USER
     ```
 
-## Columns
+## Spalten
 
-This view contains 2 columns.
+Diese Ansicht hat 2 Spalten.
 
 **`Benutzer`**
 

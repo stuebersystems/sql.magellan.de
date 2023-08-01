@@ -1,6 +1,6 @@
-# View **AuswahlBetriebe**
+# Ansicht **AuswahlBetriebe**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -19,9 +19,9 @@
       B."Kennung" = USER
     ```
 
-## Columns
+## Spalten
 
-This view contains 4 columns.
+Diese Ansicht hat 4 Spalten.
 
 **`Benutzer`**
 

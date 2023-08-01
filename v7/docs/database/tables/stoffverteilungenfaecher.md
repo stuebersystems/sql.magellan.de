@@ -1,8 +1,8 @@
-# Table **StoffverteilungenFaecher**
+# Tabelle **StoffverteilungenFaecher**
 
-## Columns
+## Spalten
 
-This table contains 3 columns.
+Diese Tabelle hat 3 Spalten.
 
 **`Mandant`**
 
@@ -22,25 +22,25 @@ This table contains 3 columns.
 
     Verweis auf Tabelle [Faecher](../../tables/faecher)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`StoffverteilungenFaecher`**
 
 :   `Mandant, Stoffverteilung, Fach`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_STOFFFACH_STOFF`**
 
 :   `Mandant, Stoffverteilung` » [`Stoffverteilungen (ID, Mandant)`](../../tables/stoffverteilungen) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_STOFFFACH_FACH`**
 

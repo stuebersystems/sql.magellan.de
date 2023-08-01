@@ -1,6 +1,6 @@
-# View **BenutzerMyMagellan**
+# Ansicht **BenutzerMyMagellan**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -8,9 +8,9 @@
     SELECT * FROM "tblBenutzer" WHERE ("Kennung" <> 'SYSDBA') AND ("Kennung" <> 'DBADMIN')
     ```
 
-## Columns
+## Spalten
 
-This view contains 27 columns.
+Diese Ansicht hat 27 Spalten.
 
 **`Mandant`**
 
@@ -48,7 +48,7 @@ This view contains 27 columns.
 
     Rechte für Schulverwaltung
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Schulleitung1
     1 | Sekretatiat1
@@ -68,7 +68,7 @@ This view contains 27 columns.
 
     für Medienverwaltung
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Schulleitung
     1 | Bibliothekar
@@ -131,7 +131,7 @@ This view contains 27 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | \(Kein Teilnehmer\)
     1 | Teilnehmer
@@ -164,7 +164,7 @@ This view contains 27 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Inaktiv
     1 | Aktiv

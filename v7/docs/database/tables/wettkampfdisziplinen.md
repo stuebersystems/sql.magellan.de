@@ -1,8 +1,8 @@
-# Table **WettkampfDisziplinen**
+# Tabelle **WettkampfDisziplinen**
 
-## Columns
+## Spalten
 
-This table contains 6 columns.
+Diese Tabelle hat 6 Spalten.
 
 **`Mandant`**
 
@@ -40,25 +40,25 @@ This table contains 6 columns.
 
     Freies Merkmal
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`WettkampfDisziplinen`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_WETTKAEMPFE_WETTKAMPF`**
 
 :   `Mandant, Wettkampf` » [`Wettkaempfe (Kuerzel, Mandant)`](../../tables/wettkaempfe) · `ON UPDATE CASCADE` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_WETTKAEMPFE_DISZIPLIN`**
 

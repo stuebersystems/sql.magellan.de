@@ -1,8 +1,8 @@
-# Table **MedizinArten**
+# Tabelle **MedizinArten**
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`Mandant`**
 
@@ -34,17 +34,17 @@ This table contains 5 columns.
 
     Bezeichnung
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`MedizinArten`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_MEDIZINARTEN`**
 

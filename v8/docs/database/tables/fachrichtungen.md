@@ -1,8 +1,8 @@
-# Table **Fachrichtungen**
+# Tabelle **Fachrichtungen**
 
-## Columns
+## Spalten
 
-This table contains 6 columns.
+Diese Tabelle hat 6 Spalten.
 
 **`Kuerzel`**
 
@@ -38,17 +38,17 @@ This table contains 6 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Fachrichtungen`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_FACHRICHTUNGEN`**
 

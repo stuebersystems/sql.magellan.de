@@ -1,8 +1,8 @@
-# Table **Faecher**
+# Tabelle **Faecher**
 
-## Columns
+## Spalten
 
-This table contains 15 columns.
+Diese Tabelle hat 15 Spalten.
 
 **`Mandant`**
 
@@ -50,7 +50,7 @@ This table contains 15 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Fremdsprache
     1 | Religion\/Ethik
@@ -89,7 +89,7 @@ This table contains 15 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | sprachl\.\-lit\.\-künstlerisch
     1 | gesellschaftswiss\.
@@ -109,7 +109,7 @@ This table contains 15 columns.
 
     Kein Abgleich mit DAVINCI?
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -134,25 +134,25 @@ This table contains 15 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Faecher`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_FAECHER_MANDANT`**
 
 :   `Mandant` » [`Mandanten (ID)`](../../tables/mandanten) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_FAECHER_GRUPPE`**
 

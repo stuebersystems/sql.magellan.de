@@ -1,8 +1,8 @@
-# Table **BewerberUnterlagen**
+# Tabelle **BewerberUnterlagen**
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`Mandant`**
 
@@ -30,22 +30,22 @@ This table contains 5 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`BewerberUnterlagen`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_BEWERBERUNTERLAGEN`**
 

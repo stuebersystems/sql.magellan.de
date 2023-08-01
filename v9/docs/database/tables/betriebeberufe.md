@@ -1,8 +1,8 @@
-# Table **BetriebeBerufe**
+# Tabelle **BetriebeBerufe**
 
-## Columns
+## Spalten
 
-This table contains 3 columns.
+Diese Tabelle hat 3 Spalten.
 
 **`Mandant`**
 
@@ -22,25 +22,25 @@ This table contains 3 columns.
 
     Verweis auf Tabelle [Berufe](../../tables/berufe)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`BetriebeBerufe`**
 
 :   `Mandant, Betrieb, Beruf`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_BETRIEBEBR_BETRIEB`**
 
 :   `Betrieb, Mandant` » [`Betriebe (ID, Mandant)`](../../tables/betriebe) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_BETRIEBEBR_BERUF`**
 

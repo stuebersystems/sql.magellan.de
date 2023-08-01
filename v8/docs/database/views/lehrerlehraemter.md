@@ -1,6 +1,6 @@
-# View **LehrerLehraemter**
+# Ansicht **LehrerLehraemter**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -22,9 +22,9 @@
                                      B."Gruppe1" = 9))
     ```
 
-## Columns
+## Spalten
 
-This view contains 9 columns.
+Diese Ansicht hat 9 Spalten.
 
 **`Mandant`**
 
@@ -54,7 +54,7 @@ This view contains 9 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Standard
     1 | Lehrbefähigung

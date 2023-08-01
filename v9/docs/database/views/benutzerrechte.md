@@ -1,6 +1,6 @@
-# View **BenutzerRechte**
+# Ansicht **BenutzerRechte**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -8,9 +8,9 @@
     SELECT * FROM "tblBenutzerRechte"
     ```
 
-## Columns
+## Spalten
 
-This view contains 5 columns.
+Diese Ansicht hat 5 Spalten.
 
 **`Mandant`**
 

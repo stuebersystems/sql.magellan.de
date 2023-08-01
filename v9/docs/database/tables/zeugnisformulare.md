@@ -1,8 +1,8 @@
-# Table **Zeugnisformulare**
+# Tabelle **Zeugnisformulare**
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`Mandant`**
 
@@ -28,17 +28,17 @@ This table contains 5 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Zeugnisformulare`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_ZEUGNISFRM_MANDANT`**
 

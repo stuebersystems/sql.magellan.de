@@ -1,8 +1,8 @@
-# Table **SchuelerSPF**
+# Tabelle **SchuelerSPF**
 
-## Columns
+## Spalten
 
-This table contains 9 columns.
+Diese Tabelle hat 9 Spalten.
 
 **`Mandant`**
 
@@ -42,7 +42,7 @@ This table contains 9 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Keine Urkunde
     1 | Siegerurkunde
@@ -52,17 +52,17 @@ This table contains 9 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerSPF`**
 
 :   `Mandant, Schueler, Sportfest`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_SCHUELERSPF_SPORTFEST`**
 
@@ -72,9 +72,9 @@ This table has one foreign key.
 
 :   `Mandant, Schueler` » [`Schueler (ID, Mandant)`](../../tables/schueler) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_SCHUELERSPF_SCHUELER`**
 

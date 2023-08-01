@@ -1,8 +1,8 @@
-# Table **Nachpruefungen**
+# Tabelle **Nachpruefungen**
 
-## Columns
+## Spalten
 
-This table contains 6 columns.
+Diese Tabelle hat 6 Spalten.
 
 **`Kuerzel`**
 
@@ -38,17 +38,17 @@ This table contains 6 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Nachpruefungen`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_NACHPRUEFUNGEN`**
 

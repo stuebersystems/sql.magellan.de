@@ -1,8 +1,8 @@
-# Table **MedienZustaende**
+# Tabelle **MedienZustaende**
 
-## Columns
+## Spalten
 
-This table contains 2 columns.
+Diese Tabelle hat 2 Spalten.
 
 **`Kuerzel`**
 
@@ -16,17 +16,17 @@ This table contains 2 columns.
 
     Bezeichnung
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`MedienZustaende`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_MedienZustaende`**
 

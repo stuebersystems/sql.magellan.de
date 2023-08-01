@@ -1,8 +1,8 @@
-# Table **Zeitraeume**
+# Tabelle **Zeitraeume**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`ID`**
 
@@ -34,7 +34,7 @@ This table contains 8 columns.
 
     Zeitraumart
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | 1\. Halbjahr
     1 | 2\. Halbjahr
@@ -54,17 +54,17 @@ This table contains 8 columns.
 
 :   [`VARCHAR(50)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Zeitraeume`**
 
 :   `ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_ZEITRAEUME`**
 

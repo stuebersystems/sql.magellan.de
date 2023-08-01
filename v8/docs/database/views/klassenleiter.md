@@ -1,6 +1,6 @@
-# View **Klassenleiter**
+# Ansicht **Klassenleiter**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -20,9 +20,9 @@
       NOT "Klassenleiter2" IS NULL
     ```
 
-## Columns
+## Spalten
 
-This view contains 4 columns.
+Diese Ansicht hat 4 Spalten.
 
 **`Mandant`**
 

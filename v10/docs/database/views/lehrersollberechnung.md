@@ -1,6 +1,6 @@
-# View **LehrerSollBerechnung**
+# Ansicht **LehrerSollBerechnung**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -24,9 +24,9 @@
     )
     ```
 
-## Columns
+## Spalten
 
-This view contains 8 columns.
+Diese Ansicht hat 8 Spalten.
 
 **`Mandant`**
 

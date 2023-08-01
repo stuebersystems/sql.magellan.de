@@ -1,6 +1,6 @@
-# View **SchuelerABI2**
+# Ansicht **SchuelerABI2**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -53,9 +53,9 @@
       "SchuelerABI" S
     ```
 
-## Columns
+## Spalten
 
-This view contains 134 columns.
+Diese Ansicht hat 134 Spalten.
 
 **`Mandant`**
 

@@ -1,8 +1,8 @@
-# Table **Bewerbungsziele**
+# Tabelle **Bewerbungsziele**
 
-## Columns
+## Spalten
 
-This table contains 10 columns.
+Diese Tabelle hat 10 Spalten.
 
 **`Kuerzel`**
 
@@ -46,7 +46,7 @@ This table contains 10 columns.
 
     Bonus bei Ranking berücksichtigen
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -67,17 +67,17 @@ This table contains 10 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Bewerbungsziele`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_BEWERBUNGSZIELE`**
 

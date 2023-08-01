@@ -1,8 +1,8 @@
-# Table **KlassenbuchKlassenwechsel**
+# Tabelle **KlassenbuchKlassenwechsel**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`Mandant`**
 
@@ -44,17 +44,17 @@ This table contains 8 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`KlassenbuchKlassenwechsel`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 3 Fremdschlüssel.
 
 **`FK_KBKWECHSEL_KLASSETEMP`**
 
@@ -68,9 +68,9 @@ This table has one foreign key.
 
 :   `KlasseRegulaer, Mandant` » [`Klassen (ID, Mandant)`](../../tables/klassen) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_KBKWECHSEL_KLASSEREG`**
 

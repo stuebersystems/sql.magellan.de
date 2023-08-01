@@ -1,8 +1,8 @@
-# Table **BewerberBewerbungsdaten**
+# Tabelle **BewerberBewerbungsdaten**
 
-## Columns
+## Spalten
 
-This table contains 65 columns.
+Diese Tabelle hat 65 Spalten.
 
 **`Mandant`**
 
@@ -136,7 +136,7 @@ This table contains 65 columns.
 
     Gesamtbonus bei Hauptfachdurchschnitt berücksichtigen
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -159,7 +159,7 @@ This table contains 65 columns.
 
     Gesamtbonus bei Zeugnisdurchschnitt berücksichtigen
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -320,7 +320,7 @@ This table contains 65 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | bereits absolviert
     1 | angestrebt
@@ -329,7 +329,7 @@ This table contains 65 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `DEFAULT 'N'`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -350,17 +350,17 @@ This table contains 65 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`BewerberBewerbungsdaten`**
 
 :   `Mandant, Schueler`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 12 Fremdschlüssel.
 
 **`FK_BBD_HAERTEFALL`**
 
@@ -410,9 +410,9 @@ This table has one foreign key.
 
 :   `Empfehlung` » [`Bewerbungsempfehlungen (Kuerzel)`](../../tables/bewerbungsempfehlungen) · `ON UPDATE RESTRICT` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 13 indices.
+Diese Tabelle hat 13 Indizes.
 
 **`FK_BBD_EMPFEHLUNG`**
 

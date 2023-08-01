@@ -1,8 +1,8 @@
-# Table **SchuelerKlassen**
+# Tabelle **SchuelerKlassen**
 
-## Columns
+## Spalten
 
-This table contains 33 columns.
+Diese Tabelle hat 33 Spalten.
 
 **`Mandant`**
 
@@ -20,7 +20,7 @@ This table contains 33 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -37,7 +37,7 @@ This table contains 33 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -52,7 +52,7 @@ This table contains 33 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -61,7 +61,7 @@ This table contains 33 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -96,7 +96,7 @@ This table contains 33 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -111,7 +111,7 @@ This table contains 33 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -180,7 +180,7 @@ This table contains 33 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -201,17 +201,17 @@ This table contains 33 columns.
 
     Verweis auf Tabelle [Schularten](../../tables/schularten)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerKlassen`**
 
 :   `Mandant, SchuelerZeitraumID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 14 Fremdschlüssel.
 
 **`FK_SCHUELERKLASSEN_ABSCHLUSS1A`**
 
@@ -269,9 +269,9 @@ This table has one foreign key.
 
 :   `Wiederholungsart` » [`Wiederholungsarten (Kuerzel)`](../../tables/wiederholungsarten) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 16 indices.
+Diese Tabelle hat 16 Indizes.
 
 **`FK_SCHUELERKLASSEN_ABSCHLUSS1`**
 

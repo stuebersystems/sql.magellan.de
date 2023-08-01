@@ -1,8 +1,8 @@
-# Table **Postleitzahlen**
+# Tabelle **Postleitzahlen**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Land`**
 
@@ -46,9 +46,9 @@ This table contains 7 columns.
 
     Telefonvorwahl
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`IDX_Postleitzahlen_PLZ`**
 

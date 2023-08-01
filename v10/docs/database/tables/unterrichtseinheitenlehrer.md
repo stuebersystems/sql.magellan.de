@@ -1,8 +1,8 @@
-# Table **UnterrichtseinheitenLehrer**
+# Tabelle **UnterrichtseinheitenLehrer**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Mandant`**
 
@@ -44,22 +44,22 @@ This table contains 7 columns.
 
     Ist nur Unterricht in einer Schülergruppe?
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`UnterrichtseinheitenLehrer`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_UEINHEITENLEHRER_UEINHEIT`**
 
@@ -69,9 +69,9 @@ This table has one foreign key.
 
 :   `Lehrer, Mandant` » [`tblLehrer (ID, Mandant)`](../../tables/tbllehrer) · `ON UPDATE RESTRICT` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_UEINHEITENLEHRER_LEHRER`**
 

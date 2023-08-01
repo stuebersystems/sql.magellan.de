@@ -1,8 +1,8 @@
-# Table **MedienSchlagworte**
+# Tabelle **MedienSchlagworte**
 
-## Columns
+## Spalten
 
-This table contains 3 columns.
+Diese Tabelle hat 3 Spalten.
 
 **`Mandant`**
 
@@ -22,25 +22,25 @@ This table contains 3 columns.
 
     Verweis auf Tabelle [Schlagworte](../../tables/schlagworte)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`MedienSchlagworte`**
 
 :   `Mandant, Medium, Schlagwort`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_MEDIENSCHLAGWORTE_SCHLAGWORT`**
 
 :   `Mandant, Schlagwort` » [`Schlagworte (ID, Mandant)`](../../tables/schlagworte) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_MEDIENSCHLAGWORTE_MEDIUM`**
 

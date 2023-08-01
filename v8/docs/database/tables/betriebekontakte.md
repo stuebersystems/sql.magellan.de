@@ -1,8 +1,8 @@
-# Table **BetriebeKontakte**
+# Tabelle **BetriebeKontakte**
 
-## Columns
+## Spalten
 
-This table contains 11 columns.
+Diese Tabelle hat 11 Spalten.
 
 **`Mandant`**
 
@@ -34,7 +34,7 @@ This table contains 11 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     W | Weiblich
     M | Weiblich
@@ -44,7 +44,7 @@ This table contains 11 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Frau
     1 | Herr
@@ -74,17 +74,17 @@ This table contains 11 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`BetriebeKontakte`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_BETRIEBEKT_BETRIEB`**
 

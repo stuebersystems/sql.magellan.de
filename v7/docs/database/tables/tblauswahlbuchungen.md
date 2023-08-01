@@ -1,8 +1,8 @@
-# Table **tblAuswahlBuchungen**
+# Tabelle **tblAuswahlBuchungen**
 
-## Columns
+## Spalten
 
-This table contains 3 columns.
+Diese Tabelle hat 3 Spalten.
 
 **`Benutzer`**
 

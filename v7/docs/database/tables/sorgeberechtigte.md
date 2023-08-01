@@ -1,8 +1,8 @@
-# Table **Sorgeberechtigte**
+# Tabelle **Sorgeberechtigte**
 
-## Columns
+## Spalten
 
-This table contains 98 columns.
+Diese Tabelle hat 98 Spalten.
 
 **`Mandant`**
 
@@ -74,7 +74,7 @@ This table contains 98 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Frau
     1 | Herr
@@ -224,7 +224,7 @@ This table contains 98 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     1 |  Erreichbar
     2 | Nicht erreichbar
@@ -238,7 +238,7 @@ This table contains 98 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Nicht aktiv
     1 | Aktiv
@@ -247,7 +247,7 @@ This table contains 98 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Keine Angabe
     1 | Geheim
@@ -468,17 +468,17 @@ This table contains 98 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Sorgeberechtigte`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 19 Fremdschlüssel.
 
 **`FK_SORGEBE_BANK2`**
 
@@ -556,9 +556,9 @@ This table has one foreign key.
 
 :   `Verkehrssprache` » [`Muttersprachen (Kuerzel)`](../../tables/muttersprachen) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 21 indices.
+Diese Tabelle hat 21 Indizes.
 
 **`FK_SORGEBE_BANK1`**
 

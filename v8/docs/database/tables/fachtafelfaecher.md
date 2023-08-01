@@ -1,8 +1,8 @@
-# Table **FachtafelFaecher**
+# Tabelle **FachtafelFaecher**
 
-## Columns
+## Spalten
 
-This table contains 40 columns.
+Diese Tabelle hat 40 Spalten.
 
 **`Mandant`**
 
@@ -88,7 +88,7 @@ This table contains 40 columns.
 
     Ist dies ein Stammkurs?
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -99,7 +99,7 @@ This table contains 40 columns.
 
     Soll die Endnote fortgeschrieben werden?
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -146,7 +146,7 @@ This table contains 40 columns.
 
     E1 gewählt bei Fachwahl
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -157,7 +157,7 @@ This table contains 40 columns.
 
     E2 gewählt bei Fachwahl
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -168,7 +168,7 @@ This table contains 40 columns.
 
     Q1 gewählt bei Fachwahl
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -179,7 +179,7 @@ This table contains 40 columns.
 
     Q2 gewählt bei Fachwahl
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -190,7 +190,7 @@ This table contains 40 columns.
 
     Q3 gewählt bei Fachwahl
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -201,7 +201,7 @@ This table contains 40 columns.
 
     Q3 gewählt bei Fachwahl
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -240,7 +240,7 @@ This table contains 40 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -249,7 +249,7 @@ This table contains 40 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -258,7 +258,7 @@ This table contains 40 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -267,7 +267,7 @@ This table contains 40 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -276,7 +276,7 @@ This table contains 40 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -285,7 +285,7 @@ This table contains 40 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -294,7 +294,7 @@ This table contains 40 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -305,17 +305,17 @@ This table contains 40 columns.
 
     Verweis auf Tabelle [Leistungsarten](../../tables/leistungsarten)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`FachtafelFaecher`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 12 Fremdschlüssel.
 
 **`FK_FACHTAFELFAECHER_FACHSTATUS`**
 
@@ -365,9 +365,9 @@ This table has one foreign key.
 
 :   `Mandant, Zusatzklasse` » [`Klassen (ID, Mandant)`](../../tables/klassen) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 14 indices.
+Diese Tabelle hat 14 Indizes.
 
 **`FK_FACHTAFELFAECHER_BILING`**
 

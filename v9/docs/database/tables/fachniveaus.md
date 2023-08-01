@@ -1,8 +1,8 @@
-# Table **FachNiveaus**
+# Tabelle **FachNiveaus**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Kuerzel`**
 
@@ -44,17 +44,17 @@ This table contains 7 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`FachNiveaus`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_FACHNIVEAUS`**
 

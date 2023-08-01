@@ -1,8 +1,8 @@
-# Table **tblLehrer**
+# Tabelle **tblLehrer**
 
-## Columns
+## Spalten
 
-This table contains 171 columns.
+Diese Tabelle hat 171 Spalten.
 
 **`Mandant`**
 
@@ -86,7 +86,7 @@ This table contains 171 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Frau
     1 | Herr
@@ -104,7 +104,7 @@ This table contains 171 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     W | Weiblich
     M | Weiblich
@@ -126,7 +126,7 @@ This table contains 171 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Verheiratet
     1 | Nicht Verheiratet
@@ -542,7 +542,7 @@ This table contains 171 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Inaktiv
     1 | Aktiv
@@ -829,17 +829,17 @@ This table contains 171 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`tblLehrer`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 53 Fremdschlüssel.
 
 **`FK_LEHRER_ABORDNUNG1`**
 
@@ -1053,9 +1053,9 @@ This table has one foreign key.
 
 :   `AbgangGrund` » [`LehrerAbgaenge (Kuerzel)`](../../tables/lehrerabgaenge) · `ON UPDATE CASCADE` · `ON DELETE RESTRICT`
 
-## Indices
+## Indizes
 
-This table has 62 indices.
+Diese Tabelle hat 62 Indizes.
 
 **`FK_LEHRER_ABGANG`**
 

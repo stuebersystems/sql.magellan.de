@@ -1,6 +1,6 @@
-# View **SchuelerAnsicht**
+# Ansicht **SchuelerAnsicht**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -116,9 +116,9 @@
     AND SK."SchuelerZeitraumID" = SZ."ID"
     ```
 
-## Columns
+## Spalten
 
-This view contains 325 columns.
+Diese Ansicht hat 325 Spalten.
 
 **`Mandant`**
 
@@ -226,7 +226,7 @@ This view contains 325 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Frau
     1 | Herr
@@ -244,7 +244,7 @@ This view contains 325 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     W | Weiblich
     M | Weiblich
@@ -608,7 +608,7 @@ This view contains 325 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Auf Warteliste
     1 | Angenommen für Bildungsziel 1

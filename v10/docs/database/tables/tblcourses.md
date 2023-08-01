@@ -1,8 +1,8 @@
-# Table **tblCourses**
+# Tabelle **tblCourses**
 
-## Columns
+## Spalten
 
-This table contains 14 columns.
+Diese Tabelle hat 14 Spalten.
 
 **`Mandant`**
 
@@ -84,17 +84,17 @@ This table contains 14 columns.
 
     Merkmal
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`tblCourses`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 7 Fremdschlüssel.
 
 **`FK_COURSE_FOCUS`**
 
@@ -124,9 +124,9 @@ This table has one foreign key.
 
 :   `Bilingual` » [`Sprachen (Kuerzel)`](../../tables/sprachen) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 8 indices.
+Diese Tabelle hat 8 Indizes.
 
 **`FK_COURSE_BILINGUAL`**
 

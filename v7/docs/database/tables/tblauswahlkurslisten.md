@@ -1,8 +1,8 @@
-# Table **tblAuswahlKurslisten**
+# Tabelle **tblAuswahlKurslisten**
 
-## Columns
+## Spalten
 
-This table contains 9 columns.
+Diese Tabelle hat 9 Spalten.
 
 **`Benutzer`**
 

@@ -1,8 +1,8 @@
-# Table **SchuelerFehlzeiten**
+# Tabelle **SchuelerFehlzeiten**
 
-## Columns
+## Spalten
 
-This table contains 22 columns.
+Diese Tabelle hat 22 Spalten.
 
 **`Mandant`**
 
@@ -64,7 +64,7 @@ This table contains 22 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -73,7 +73,7 @@ This table contains 22 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -112,7 +112,7 @@ This table contains 22 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `DEFAULT 0`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Fehlzeit
     F | Abwesenheit\/Pausiert
@@ -121,17 +121,17 @@ This table contains 22 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerFehlzeiten`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 4 Fremdschlüssel.
 
 **`FK_SCHUELERFEHLZEITEN_FEHLGRUND`**
 
@@ -149,9 +149,9 @@ This table has one foreign key.
 
 :   `Entschuldigungsgrund` » [`Entschuldigungsgruende (Kuerzel)`](../../tables/entschuldigungsgruende) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 5 indices.
+Diese Tabelle hat 5 Indizes.
 
 **`FK_SCHUELERFEHLZEITEN_ENTGRUND`**
 

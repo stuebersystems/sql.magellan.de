@@ -1,8 +1,8 @@
-# Table **Buchungen**
+# Tabelle **Buchungen**
 
-## Columns
+## Spalten
 
-This table contains 18 columns.
+Diese Tabelle hat 18 Spalten.
 
 **`Mandant`**
 
@@ -26,7 +26,7 @@ This table contains 18 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Ausgabe
     1 | Einnahme
@@ -94,17 +94,17 @@ This table contains 18 columns.
 
 :   [`VARCHAR(20)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Buchungen`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 4 Fremdschlüssel.
 
 **`FK_BUCHUNGEN_HAUSHALTSSTELLE`**
 
@@ -122,9 +122,9 @@ This table has one foreign key.
 
 :   `Bereich, Mandant` » [`Buchungsbereiche (Kuerzel, Mandant)`](../../tables/buchungsbereiche) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 5 indices.
+Diese Tabelle hat 5 Indizes.
 
 **`FK_BUCHUNGEN_BEREICH`**
 

@@ -1,8 +1,8 @@
-# Table **Klassenbuch**
+# Tabelle **Klassenbuch**
 
-## Columns
+## Spalten
 
-This table contains 25 columns.
+Diese Tabelle hat 25 Spalten.
 
 **`Mandant`**
 
@@ -82,7 +82,7 @@ This table contains 25 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -119,17 +119,17 @@ This table contains 25 columns.
 
 :   [`VARCHAR(20)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Klassenbuch`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 4 Fremdschlüssel.
 
 **`FK_KB_FACH`**
 
@@ -147,9 +147,9 @@ This table has one foreign key.
 
 :   `Ersatzfach, Mandant` » [`Faecher (ID, Mandant)`](../../tables/faecher) · `ON UPDATE RESTRICT` · `ON DELETE RESTRICT`
 
-## Indices
+## Indizes
 
-This table has 5 indices.
+Diese Tabelle hat 5 Indizes.
 
 **`FK_KB_ERSATZFACH`**
 

@@ -1,6 +1,6 @@
-# View **StudentComplexReports**
+# Ansicht **StudentComplexReports**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -51,9 +51,9 @@
       AND AE."ID" = SCR."Entry"
     ```
 
-## Columns
+## Spalten
 
-This view contains 17 columns.
+Diese Ansicht hat 17 Spalten.
 
 **`Mandant`**
 

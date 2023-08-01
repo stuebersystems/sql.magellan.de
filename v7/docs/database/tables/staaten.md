@@ -1,8 +1,8 @@
-# Table **Staaten**
+# Tabelle **Staaten**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`ID`**
 
@@ -50,17 +50,17 @@ This table contains 8 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Staaten`**
 
 :   `ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_STAATEN`**
 

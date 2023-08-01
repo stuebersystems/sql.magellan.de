@@ -1,8 +1,8 @@
-# Table **AdressenKontakte**
+# Tabelle **AdressenKontakte**
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`ID`**
 
@@ -30,25 +30,25 @@ This table contains 5 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`AdressenKontakte`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_ADRESSENKT_ADRESSE`**
 
 :   `Adresse, Mandant` » [`Adressen (ID, Mandant)`](../../tables/adressen) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_ADRESSENKT_ADRESSE`**
 

@@ -1,6 +1,6 @@
-# View **StudentAchievements**
+# Ansicht **StudentAchievements**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -39,9 +39,9 @@
           AND F."ID" = C."Subject"
     ```
 
-## Columns
+## Spalten
 
-This view contains 24 columns.
+Diese Ansicht hat 24 Spalten.
 
 **`Mandant`**
 

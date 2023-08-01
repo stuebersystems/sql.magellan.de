@@ -1,8 +1,8 @@
-# Table **SchuelerMerkmale**
+# Tabelle **SchuelerMerkmale**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`Mandant`**
 
@@ -34,7 +34,7 @@ This table contains 8 columns.
 
     Zuordnung des Merkmals
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Merkmal A1
     1 | Merkmal A2
@@ -69,17 +69,17 @@ This table contains 8 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerMerkmale`**
 
 :   `Mandant, Kuerzel`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_SCHUELERMERKMALE_MANDANT`**
 

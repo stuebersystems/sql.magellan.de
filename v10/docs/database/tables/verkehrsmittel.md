@@ -1,8 +1,8 @@
-# Table **Verkehrsmittel**
+# Tabelle **Verkehrsmittel**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Kuerzel`**
 
@@ -42,17 +42,17 @@ This table contains 7 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Verkehrsmittel`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_VERKEHRSMITTEL`**
 

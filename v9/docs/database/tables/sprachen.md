@@ -1,8 +1,8 @@
-# Table **Sprachen**
+# Tabelle **Sprachen**
 
-## Columns
+## Spalten
 
-This table contains 3 columns.
+Diese Tabelle hat 3 Spalten.
 
 **`Kuerzel`**
 
@@ -22,17 +22,17 @@ This table contains 3 columns.
 
     Bezeichnung
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Sprachen`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_SPRACHEN`**
 

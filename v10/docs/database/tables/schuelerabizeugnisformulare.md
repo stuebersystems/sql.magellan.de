@@ -1,8 +1,8 @@
-# Table **SchuelerABIZeugnisformulare**
+# Tabelle **SchuelerABIZeugnisformulare**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Mandant`**
 
@@ -46,17 +46,17 @@ This table contains 7 columns.
 
     Verweis auf Tabelle [Zeugnisformulare](../../tables/zeugnisformulare)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerABIZeugnisformulare`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 3 Fremdschlüssel.
 
 **`FK_SCHUELERABIZ_FORMULAR`**
 
@@ -70,9 +70,9 @@ This table has one foreign key.
 
 :   `Mandant, Schueler` » [`SchuelerABI (Mandant, Schueler)`](../../tables/schuelerabi) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_SCHUELERABIZ_ABI`**
 

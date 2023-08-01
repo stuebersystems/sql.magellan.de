@@ -1,8 +1,8 @@
-# Table **Mandanten**
+# Tabelle **Mandanten**
 
-## Columns
+## Spalten
 
-This table contains 48 columns.
+Diese Tabelle hat 48 Spalten.
 
 **`ID`**
 
@@ -134,7 +134,7 @@ This table contains 48 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Schulträger
     1 | Schulamt
@@ -150,7 +150,7 @@ This table contains 48 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Schulträger
     1 | Schulamt
@@ -166,7 +166,7 @@ This table contains 48 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Schulträger
     1 | Schulamt
@@ -252,7 +252,7 @@ This table contains 48 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Öffentlich
     1 | Privat
@@ -261,17 +261,17 @@ This table contains 48 columns.
 
 :   [`VARCHAR(20)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Mandanten`**
 
 :   `ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 9 Fremdschlüssel.
 
 **`FK_MANDANTEN_ADRESSE2`**
 
@@ -309,9 +309,9 @@ This table has one foreign key.
 
 :   `Adresse1, ID` » [`Adressen (ID, Mandant)`](../../tables/adressen) · `ON UPDATE RESTRICT` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 20 indices.
+Diese Tabelle hat 20 Indizes.
 
 **`FK_MANDANTEN_ADRESSE1`**
 

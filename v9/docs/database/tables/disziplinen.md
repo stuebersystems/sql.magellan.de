@@ -1,8 +1,8 @@
-# Table **Disziplinen**
+# Tabelle **Disziplinen**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Mandant`**
 
@@ -44,17 +44,17 @@ This table contains 7 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Disziplinen`**
 
 :   `Mandant, Kuerzel`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_DISZIPLINEN_MANDANT`**
 

@@ -1,8 +1,8 @@
-# Table **tblGroupMembers**
+# Tabelle **tblGroupMembers**
 
-## Columns
+## Spalten
 
-This table contains 12 columns.
+Diese Tabelle hat 12 Spalten.
 
 **`Mandant`**
 
@@ -36,7 +36,7 @@ This table contains 12 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     1 | Person
     2 | Lehrer
@@ -67,17 +67,17 @@ This table contains 12 columns.
 
 :   [`VARCHAR(100)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`tblGroupMembers`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_GROUPMEMBERS_GROUP`**
 

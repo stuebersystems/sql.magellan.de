@@ -1,8 +1,8 @@
-# Table **tblAuswahlZeugnisse**
+# Tabelle **tblAuswahlZeugnisse**
 
-## Columns
+## Spalten
 
-This table contains 13 columns.
+Diese Tabelle hat 13 Spalten.
 
 **`Benutzer`**
 
@@ -64,7 +64,7 @@ This table contains 13 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja

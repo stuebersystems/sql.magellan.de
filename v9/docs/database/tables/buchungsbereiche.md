@@ -1,8 +1,8 @@
-# Table **Buchungsbereiche**
+# Tabelle **Buchungsbereiche**
 
-## Columns
+## Spalten
 
-This table contains 3 columns.
+Diese Tabelle hat 3 Spalten.
 
 **`Mandant`**
 
@@ -22,17 +22,17 @@ This table contains 3 columns.
 
     Bezeichnung
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Buchungsbereiche`**
 
 :   `Mandant, Kuerzel`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_BUCHUNGSBEREICHE_MANDANT`**
 

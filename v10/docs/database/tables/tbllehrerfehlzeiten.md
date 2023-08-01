@@ -1,8 +1,8 @@
-# Table **tblLehrerFehlzeiten**
+# Tabelle **tblLehrerFehlzeiten**
 
-## Columns
+## Spalten
 
-This table contains 11 columns.
+Diese Tabelle hat 11 Spalten.
 
 **`Mandant`**
 
@@ -50,7 +50,7 @@ This table contains 11 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -59,17 +59,17 @@ This table contains 11 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`tblLehrerFehlzeiten`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_LEHRERFEHLZEITEN_LEHRER`**
 
@@ -79,9 +79,9 @@ This table has one foreign key.
 
 :   `Grund` » [`LehrerFehlgruende (Kuerzel)`](../../tables/lehrerfehlgruende) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_LEHRERFEHLZEITEN_GRUND`**
 

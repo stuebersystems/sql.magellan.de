@@ -1,8 +1,8 @@
-# Table **FoerderSchwerpunkte**
+# Tabelle **FoerderSchwerpunkte**
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`Kuerzel`**
 
@@ -34,17 +34,17 @@ This table contains 5 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`FoerderSchwerpunkte`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_FOEDERSCHWERPUNKTE`**
 

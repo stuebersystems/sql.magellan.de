@@ -1,8 +1,8 @@
-# Table **FaecherUnterpunkte**
+# Tabelle **FaecherUnterpunkte**
 
-## Columns
+## Spalten
 
-This table contains 10 columns.
+Diese Tabelle hat 10 Spalten.
 
 **`Mandant`**
 
@@ -60,17 +60,17 @@ This table contains 10 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`FaecherUnterpunkte`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_FAECHERUNTERPUNKTE_THEMA`**
 
@@ -80,9 +80,9 @@ This table has one foreign key.
 
 :   `Mandant` » [`Mandanten (ID)`](../../tables/mandanten) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 6 indices.
+Diese Tabelle hat 6 Indizes.
 
 **`FK_FAECHERUNTERPUNKTE_MANDANTEN`**
 

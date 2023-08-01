@@ -1,8 +1,8 @@
-# Table **tblAuswahlSportfeste**
+# Tabelle **tblAuswahlSportfeste**
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`Benutzer`**
 

@@ -1,8 +1,8 @@
-# Table **SchuelerSPFDetails**
+# Tabelle **SchuelerSPFDetails**
 
-## Columns
+## Spalten
 
-This table contains 10 columns.
+Diese Tabelle hat 10 Spalten.
 
 **`Mandant`**
 
@@ -54,17 +54,17 @@ This table contains 10 columns.
 
 :   [`VARCHAR(8)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerSPFDetails`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_SCHUELERSPFD_SPORTFEST`**
 
@@ -74,9 +74,9 @@ This table has one foreign key.
 
 :   `Disziplin, Mandant` » [`Disziplinen (Kuerzel, Mandant)`](../../tables/disziplinen) · `ON UPDATE CASCADE` · `ON DELETE RESTRICT`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_SCHUELERSPFD_DISZIPLIN`**
 

@@ -1,8 +1,8 @@
-# Table **Opac**
+# Tabelle **Opac**
 
-## Columns
+## Spalten
 
-This table contains 2 columns.
+Diese Tabelle hat 2 Spalten.
 
 **`ID`**
 
@@ -14,17 +14,17 @@ This table contains 2 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Opac`**
 
 :   `ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_OPAC`**
 

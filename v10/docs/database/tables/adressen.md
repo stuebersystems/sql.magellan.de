@@ -1,8 +1,8 @@
-# Table **Adressen**
+# Tabelle **Adressen**
 
-## Columns
+## Spalten
 
-This table contains 19 columns.
+Diese Tabelle hat 19 Spalten.
 
 **`Mandant`**
 
@@ -78,7 +78,7 @@ This table contains 19 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `DEFAULT 'N'`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Ja
     1 | Nein
@@ -93,17 +93,17 @@ This table contains 19 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Adressen`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_ADRESSEN_MANDANT`**
 
@@ -113,9 +113,9 @@ This table has one foreign key.
 
 :   `Kategorie` » [`Adressenkategorien (Kuerzel)`](../../tables/adressenkategorien) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 5 indices.
+Diese Tabelle hat 5 Indizes.
 
 **`FK_ADRESSEN_KATEGORIE`**
 

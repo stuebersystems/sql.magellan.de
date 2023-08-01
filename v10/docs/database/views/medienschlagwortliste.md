@@ -1,6 +1,6 @@
-# View **MedienSchlagwortliste**
+# Ansicht **MedienSchlagwortliste**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -19,9 +19,9 @@
       MS."Schlagwort" = S."ID"
     ```
 
-## Columns
+## Spalten
 
-This view contains 3 columns.
+Diese Ansicht hat 3 Spalten.
 
 **`Mandant`**
 

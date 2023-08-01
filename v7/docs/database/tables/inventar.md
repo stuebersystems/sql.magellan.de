@@ -1,8 +1,8 @@
-# Table **Inventar**
+# Tabelle **Inventar**
 
-## Columns
+## Spalten
 
-This table contains 11 columns.
+Diese Tabelle hat 11 Spalten.
 
 **`Mandant`**
 
@@ -56,17 +56,17 @@ This table contains 11 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Inventar`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_INVENTAR_MANDANT`**
 
@@ -76,9 +76,9 @@ This table has one foreign key.
 
 :   `Mandant, Standort` » [`Standorte (Kuerzel, Mandant)`](../../tables/standorte) · `ON UPDATE CASCADE` · `ON DELETE RESTRICT`
 
-## Indices
+## Indizes
 
-This table has 5 indices.
+Diese Tabelle hat 5 Indizes.
 
 **`FK_INVENTAR_KATEGORIE`**
 

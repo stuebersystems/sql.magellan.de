@@ -1,8 +1,8 @@
-# Table **tblLehrerLehraemter**
+# Tabelle **tblLehrerLehraemter**
 
-## Columns
+## Spalten
 
-This table contains 9 columns.
+Diese Tabelle hat 9 Spalten.
 
 **`Mandant`**
 
@@ -32,7 +32,7 @@ This table contains 9 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Standard
     1 | Lehrbefähigung
@@ -58,17 +58,17 @@ This table contains 9 columns.
 
 :   [`VARCHAR(300)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`tblLehrerLehraemter`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_LEHRERLEHRAEMTER_LEHRAMT`**
 
@@ -78,9 +78,9 @@ This table has one foreign key.
 
 :   `Lehrer, Mandant` » [`tblLehrer (ID, Mandant)`](../../tables/tbllehrer) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_LEHRERLEHRAEMTER_BEZUG`**
 

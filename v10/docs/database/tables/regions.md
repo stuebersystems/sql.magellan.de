@@ -1,8 +1,8 @@
-# Table **Regions**
+# Tabelle **Regions**
 
-## Columns
+## Spalten
 
-This table contains 12 columns.
+Diese Tabelle hat 12 Spalten.
 
 **`ID`**
 
@@ -72,17 +72,17 @@ This table contains 12 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Regions`**
 
 :   `ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 3 Fremdschlüssel.
 
 **`FK_REGIONS_STAAT`**
 
@@ -96,9 +96,9 @@ This table has one foreign key.
 
 :   `Parent` » [`Regions (ID)`](../../tables/regions) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_REGIONS_PARENT`**
 

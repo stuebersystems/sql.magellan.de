@@ -1,8 +1,8 @@
-# Table **Betriebe**
+# Tabelle **Betriebe**
 
-## Columns
+## Spalten
 
-This table contains 27 columns.
+Diese Tabelle hat 27 Spalten.
 
 **`Mandant`**
 
@@ -122,7 +122,7 @@ This table contains 27 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Inaktiv
     1 | Aktiv
@@ -135,17 +135,17 @@ This table contains 27 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Betriebe`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 4 Fremdschlüssel.
 
 **`FK_BETRIEBE_BRANCHE`**
 
@@ -163,9 +163,9 @@ This table has one foreign key.
 
 :   `Sponsor` » [`Sponsoren (Kuerzel)`](../../tables/sponsoren) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 13 indices.
+Diese Tabelle hat 13 Indizes.
 
 **`FK_BETRIEBE_ARBEITSAMT`**
 

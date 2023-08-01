@@ -1,8 +1,8 @@
-# Table **AssessmentGroups**
+# Tabelle **AssessmentGroups**
 
-## Columns
+## Spalten
 
-This table contains 11 columns.
+Diese Tabelle hat 11 Spalten.
 
 **`Mandant`**
 
@@ -44,7 +44,7 @@ This table contains 11 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | keine Bewertung
     1 | Grade
@@ -75,25 +75,25 @@ This table contains 11 columns.
 
     Interner Code\. Mögliche Werte werden zukünftig noch festgelegt
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`AssessmentGroups`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_ASSESSMENTGROUP_PROFILE`**
 
 :   `Mandant, Profile` » [`AssessmentProfiles (ID, Mandant)`](../../tables/assessmentprofiles) · `ON UPDATE CASCADE` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_ASSESSMENTGROUP_GRADESYSTEM`**
 

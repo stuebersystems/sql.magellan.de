@@ -1,8 +1,8 @@
-# Table **SchuelerAusbildung**
+# Tabelle **SchuelerAusbildung**
 
-## Columns
+## Spalten
 
-This table contains 24 columns.
+Diese Tabelle hat 24 Spalten.
 
 **`Mandant`**
 
@@ -100,7 +100,7 @@ This table contains 24 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -123,7 +123,7 @@ This table contains 24 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `DEFAULT 'J'`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -132,17 +132,17 @@ This table contains 24 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerAusbildung`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 9 Fremdschlüssel.
 
 **`FK_SCHUELERAB_BERUF`**
 
@@ -180,9 +180,9 @@ This table has one foreign key.
 
 :   `Vertragsart` » [`Vertragsarten (Kuerzel)`](../../tables/vertragsarten) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 11 indices.
+Diese Tabelle hat 11 Indizes.
 
 **`FK_SCHUELERAB_AUSBILDERKONTAKT`**
 

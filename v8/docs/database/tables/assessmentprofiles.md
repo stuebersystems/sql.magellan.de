@@ -1,8 +1,8 @@
-# Table **AssessmentProfiles**
+# Tabelle **AssessmentProfiles**
 
-## Columns
+## Spalten
 
-This table contains 9 columns.
+Diese Tabelle hat 9 Spalten.
 
 **`Mandant`**
 
@@ -38,7 +38,7 @@ This table contains 9 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | keine Bewertung
     1 | Grade
@@ -63,17 +63,17 @@ This table contains 9 columns.
 
     Interner Code\. Mögliche Werte werden zukünftig noch festgelegt
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`AssessmentProfiles`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_ASSESSMENTPROF_GRADESYSTEM`**
 

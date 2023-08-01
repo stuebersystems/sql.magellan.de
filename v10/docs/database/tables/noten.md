@@ -1,8 +1,8 @@
-# Table **Noten**
+# Tabelle **Noten**
 
-## Columns
+## Spalten
 
-This table contains 12 columns.
+Diese Tabelle hat 12 Spalten.
 
 **`Mandant`**
 
@@ -40,7 +40,7 @@ This table contains 12 columns.
 
     Notenart
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Notenwert
     1 | Punktwert
@@ -80,25 +80,25 @@ This table contains 12 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Noten`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_NOTEN_MANDANT`**
 
 :   `Mandant` » [`Mandanten (ID)`](../../tables/mandanten) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_NOTEN_MANDANT`**
 

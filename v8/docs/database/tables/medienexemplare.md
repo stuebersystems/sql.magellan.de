@@ -1,8 +1,8 @@
-# Table **MedienExemplare**
+# Tabelle **MedienExemplare**
 
-## Columns
+## Spalten
 
-This table contains 22 columns.
+Diese Tabelle hat 22 Spalten.
 
 **`Mandant`**
 
@@ -104,17 +104,17 @@ This table contains 22 columns.
 
 :   [`BLOB subtype text`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-bnrytypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`MedienExemplare`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 4 Fremdschlüssel.
 
 **`FK_MEDIENEXEMPLARE_LIEFERANT`**
 
@@ -132,9 +132,9 @@ This table has one foreign key.
 
 :   `Waehrung` » [`Waehrungen (Kuerzel)`](../../tables/waehrungen) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 10 indices.
+Diese Tabelle hat 10 Indizes.
 
 **`FK_MEDIENEXEMPLARE_KATALOG`**
 

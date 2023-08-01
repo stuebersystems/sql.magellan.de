@@ -1,8 +1,8 @@
-# Table **Raeume**
+# Tabelle **Raeume**
 
-## Columns
+## Spalten
 
-This table contains 4 columns.
+Diese Tabelle hat 4 Spalten.
 
 **`Mandant`**
 
@@ -28,17 +28,17 @@ This table contains 4 columns.
 
     Bezeichnung
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Raeume`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_RAEUME`**
 

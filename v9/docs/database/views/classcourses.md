@@ -1,6 +1,6 @@
-# View **ClassCourses**
+# Ansicht **ClassCourses**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -20,9 +20,9 @@
       AND KZ."ID" = CC."ClassTerm"
     ```
 
-## Columns
+## Spalten
 
-This view contains 17 columns.
+Diese Ansicht hat 17 Spalten.
 
 **`Mandant`**
 

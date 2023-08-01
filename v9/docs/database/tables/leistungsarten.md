@@ -1,8 +1,8 @@
-# Table **Leistungsarten**
+# Tabelle **Leistungsarten**
 
-## Columns
+## Spalten
 
-This table contains 3 columns.
+Diese Tabelle hat 3 Spalten.
 
 **`Kuerzel`**
 
@@ -22,23 +22,23 @@ This table contains 3 columns.
 
     Art der Leistung
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Schriftlich
     1 | Mündlich
     2 | Praktisch
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Leistungsarten`**
 
 :   `Kuerzel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_LEISTUNGSARTEN`**
 

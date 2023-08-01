@@ -1,8 +1,8 @@
-# Table **tblAuswahlPruefungslisten**
+# Tabelle **tblAuswahlPruefungslisten**
 
-## Columns
+## Spalten
 
-This table contains 7 columns.
+Diese Tabelle hat 7 Spalten.
 
 **`Benutzer`**
 

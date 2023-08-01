@@ -1,8 +1,8 @@
-# Table **MedienAusleiher**
+# Tabelle **MedienAusleiher**
 
-## Columns
+## Spalten
 
-This table contains 23 columns.
+Diese Tabelle hat 23 Spalten.
 
 **`Mandant`**
 
@@ -26,7 +26,7 @@ This table contains 23 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     1 | Person
     2 | Lehrer
@@ -52,7 +52,7 @@ This table contains 23 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Frau
     1 | Herr
@@ -70,7 +70,7 @@ This table contains 23 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     W | Weiblich
     M | Weiblich
@@ -120,7 +120,7 @@ This table contains 23 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Nicht Aktiv
     1 | Aktiv
@@ -137,17 +137,17 @@ This table contains 23 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`MedienAusleiher`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`IDX_MA_BARCODE`**
 

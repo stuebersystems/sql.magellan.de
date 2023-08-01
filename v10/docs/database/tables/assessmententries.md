@@ -1,8 +1,8 @@
-# Table **AssessmentEntries**
+# Tabelle **AssessmentEntries**
 
-## Columns
+## Spalten
 
-This table contains 11 columns.
+Diese Tabelle hat 11 Spalten.
 
 **`Mandant`**
 
@@ -70,17 +70,17 @@ This table contains 11 columns.
 
     Interner Code\. Mögliche Werte werden zukünftig noch festgelegt
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`AssessmentEntries`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 3 Fremdschlüssel.
 
 **`FK_ASSMENTRY_GROUP`**
 
@@ -94,9 +94,9 @@ This table has one foreign key.
 
 :   `GradeSystem, Mandant` » [`GradeSystems (ID, Mandant)`](../../tables/gradesystems) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_ASSMENTRY_GRADESYSTEM`**
 

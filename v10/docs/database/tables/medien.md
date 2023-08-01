@@ -1,8 +1,8 @@
-# Table **Medien**
+# Tabelle **Medien**
 
-## Columns
+## Spalten
 
-This table contains 37 columns.
+Diese Tabelle hat 37 Spalten.
 
 **`Mandant`**
 
@@ -162,7 +162,7 @@ This table contains 37 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Ausleihbar
     1 | Nicht ausleihbar
@@ -174,7 +174,7 @@ This table contains 37 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `NOT NULL`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -191,17 +191,17 @@ This table contains 37 columns.
 
     Verweis auf Tabelle [MedienJahrgaenge](../../tables/medienjahrgaenge)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Medien`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 11 Fremdschlüssel.
 
 **`FK_MEDIEN_ERSCHEINUNGSWEISE`**
 
@@ -247,9 +247,9 @@ This table has one foreign key.
 
 :   `Erscheinungsland` » [`Staaten (ID)`](../../tables/staaten) · `ON UPDATE RESTRICT` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 13 indices.
+Diese Tabelle hat 13 Indizes.
 
 **`FK_MEDIEN_ERSCHEINUNGSLAND`**
 

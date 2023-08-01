@@ -1,6 +1,6 @@
-# View **Individuals**
+# Ansicht **Individuals**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -31,9 +31,9 @@
       FROM "Sorgeberechtigte" M
     ```
 
-## Columns
+## Spalten
 
-This view contains 11 columns.
+Diese Ansicht hat 11 Spalten.
 
 **`Mandant`**
 
@@ -51,7 +51,7 @@ This view contains 11 columns.
 
 :   [`INTEGER`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     1 | Person
     2 | Lehrer

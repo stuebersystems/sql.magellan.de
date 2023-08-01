@@ -1,8 +1,8 @@
-# Table **MedienStichworte**
+# Tabelle **MedienStichworte**
 
-## Columns
+## Spalten
 
-This table contains 4 columns.
+Diese Tabelle hat 4 Spalten.
 
 **`Mandant`**
 
@@ -28,17 +28,17 @@ This table contains 4 columns.
 
     Stichwort
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`MedienStichworte`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_MEDIENSTICHWORTE_MEDIUM`**
 

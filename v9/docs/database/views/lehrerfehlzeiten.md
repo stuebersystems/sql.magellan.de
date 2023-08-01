@@ -1,6 +1,6 @@
-# View **LehrerFehlzeiten**
+# Ansicht **LehrerFehlzeiten**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -32,9 +32,9 @@
                                      B."Gruppe1" = 9))
     ```
 
-## Columns
+## Spalten
 
-This view contains 11 columns.
+Diese Ansicht hat 11 Spalten.
 
 **`Mandant`**
 
@@ -82,7 +82,7 @@ This view contains 11 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja

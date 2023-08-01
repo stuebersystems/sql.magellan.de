@@ -1,6 +1,6 @@
-# View **Lehrer**
+# Ansicht **Lehrer**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -18,9 +18,9 @@
         B."Gruppe1" = 9 OR B."Gruppe1" = 10))
     ```
 
-## Columns
+## Spalten
 
-This view contains 171 columns.
+Diese Ansicht hat 171 Spalten.
 
 **`Mandant`**
 
@@ -104,7 +104,7 @@ This view contains 171 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Frau
     1 | Herr
@@ -122,7 +122,7 @@ This view contains 171 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     W | Weiblich
     M | Weiblich
@@ -144,7 +144,7 @@ This view contains 171 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Verheiratet
     1 | Nicht Verheiratet
@@ -560,7 +560,7 @@ This view contains 171 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     0 | Inaktiv
     1 | Aktiv

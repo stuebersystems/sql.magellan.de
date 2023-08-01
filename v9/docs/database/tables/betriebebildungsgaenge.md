@@ -1,8 +1,8 @@
-# Table **BetriebeBildungsgaenge**
+# Tabelle **BetriebeBildungsgaenge**
 
-## Columns
+## Spalten
 
-This table contains 3 columns.
+Diese Tabelle hat 3 Spalten.
 
 **`Mandant`**
 
@@ -22,25 +22,25 @@ This table contains 3 columns.
 
     Verweis auf Tabelle [Bildungsgaenge](../../tables/bildungsgaenge)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`BetriebeBildungsgaenge`**
 
 :   `Mandant, Betrieb, Bildungsgang`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_BETRIEBEBG_BILDUNGSGANG`**
 
 :   `Bildungsgang` » [`Bildungsgaenge (Kuerzel)`](../../tables/bildungsgaenge) · `ON UPDATE CASCADE` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_BETRIEBEBG_BETRIEB`**
 

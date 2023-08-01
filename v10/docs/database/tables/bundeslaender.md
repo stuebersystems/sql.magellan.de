@@ -1,8 +1,8 @@
-# Table **Bundeslaender**
+# Tabelle **Bundeslaender**
 
-## Columns
+## Spalten
 
-This table contains 3 columns.
+Diese Tabelle hat 3 Spalten.
 
 **`Schluessel`**
 
@@ -18,17 +18,17 @@ This table contains 3 columns.
 
     Externer Identifikator aus ENBREA
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Bundeslaender`**
 
 :   `Schluessel`
 
-## Indices
+## Indizes
 
-This table has one index.
+Diese Tabelle hat einen Index.
 
 **`PK_BUNDESLAENDER`**
 

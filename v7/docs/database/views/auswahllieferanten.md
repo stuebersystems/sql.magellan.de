@@ -1,6 +1,6 @@
-# View **AuswahlLieferanten**
+# Ansicht **AuswahlLieferanten**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -19,9 +19,9 @@
       B."Kennung" = USER
     ```
 
-## Columns
+## Spalten
 
-This view contains 3 columns.
+Diese Ansicht hat 3 Spalten.
 
 **`Benutzer`**
 

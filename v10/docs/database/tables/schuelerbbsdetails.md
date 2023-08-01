@@ -1,8 +1,8 @@
-# Table **SchuelerBBSDetails**
+# Tabelle **SchuelerBBSDetails**
 
-## Columns
+## Spalten
 
-This table contains 37 columns.
+Diese Tabelle hat 37 Spalten.
 
 **`Mandant`**
 
@@ -186,17 +186,17 @@ This table contains 37 columns.
 
 :   [`FLOAT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-floattypes)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerBBSDetails`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 14 Fremdschlüssel.
 
 **`FK_SCHUELERBBSD_FACH`**
 
@@ -254,9 +254,9 @@ This table has one foreign key.
 
 :   `Mandant, Schueler` » [`SchuelerBBS (Mandant, Schueler)`](../../tables/schuelerbbs) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 15 indices.
+Diese Tabelle hat 15 Indizes.
 
 **`FK_SCHUELERBBSD_BBS`**
 

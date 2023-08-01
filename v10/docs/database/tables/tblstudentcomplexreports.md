@@ -1,8 +1,8 @@
-# Table **tblStudentComplexReports**
+# Tabelle **tblStudentComplexReports**
 
-## Columns
+## Spalten
 
-This table contains 10 columns.
+Diese Tabelle hat 10 Spalten.
 
 **`Mandant`**
 
@@ -58,17 +58,17 @@ This table contains 10 columns.
 
     Beurteilung
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`tblStudentComplexReports`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 4 Fremdschlüssel.
 
 **`FK_COMPLEXREPORTS_GRADE`**
 
@@ -86,9 +86,9 @@ This table has one foreign key.
 
 :   `Entry, Mandant` » [`AssessmentEntries (ID, Mandant)`](../../tables/assessmententries) · `ON UPDATE CASCADE` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 5 indices.
+Diese Tabelle hat 5 Indizes.
 
 **`FK_COMPLEXREPORTS_ENTRY`**
 

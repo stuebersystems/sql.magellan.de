@@ -1,6 +1,6 @@
-# View **AuswahlMedienAusleihe**
+# Ansicht **AuswahlMedienAusleihe**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -19,9 +19,9 @@
       B."Kennung" = USER
     ```
 
-## Columns
+## Spalten
 
-This view contains 5 columns.
+Diese Ansicht hat 5 Spalten.
 
 **`Benutzer`**
 

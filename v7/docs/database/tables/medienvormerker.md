@@ -1,8 +1,8 @@
-# Table **MedienVormerker**
+# Tabelle **MedienVormerker**
 
-## Columns
+## Spalten
 
-This table contains 6 columns.
+Diese Tabelle hat 6 Spalten.
 
 **`Mandant`**
 
@@ -36,17 +36,17 @@ This table contains 6 columns.
 
 :   [`TIME`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-datetime)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`MedienVormerker`**
 
 :   `Mandant, ID`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_MEDIENVORMERKER_MEDIUM`**
 

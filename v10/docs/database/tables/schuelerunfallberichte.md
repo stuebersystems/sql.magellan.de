@@ -1,8 +1,8 @@
-# Table **SchuelerUnfallberichte**
+# Tabelle **SchuelerUnfallberichte**
 
-## Columns
+## Spalten
 
-This table contains 25 columns.
+Diese Tabelle hat 25 Spalten.
 
 **`Mandant`**
 
@@ -30,7 +30,7 @@ This table contains 25 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes) · `DEFAULT 'N'`
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -55,7 +55,7 @@ This table contains 25 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein, andere Person
     J | Ja, Versicherte\(r\)
@@ -72,7 +72,7 @@ This table contains 25 columns.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Sofort
@@ -94,7 +94,7 @@ This table contains 25 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -113,7 +113,7 @@ This table contains 25 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     N | Nein
     J | Ja
@@ -150,17 +150,17 @@ This table contains 25 columns.
 
     Rufnummer für Rückfragen
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerUnfallberichte`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_SCHUELERUNFALL_SCHUELER`**
 
@@ -170,9 +170,9 @@ This table has one foreign key.
 
 :   `Empfaenger, Mandant` » [`Adressen (ID, Mandant)`](../../tables/adressen) · `ON UPDATE CASCADE` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_SCHUELERUNFALL_EMPFAENGER`**
 

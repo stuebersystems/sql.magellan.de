@@ -1,6 +1,6 @@
-# View **ABIPruefungsfaecherSchriftlich**
+# Ansicht **ABIPruefungsfaecherSchriftlich**
 
-## Query
+## Abfrage
 
 ??? info "SQL"
 
@@ -151,9 +151,9 @@
       AND SAD."Fach" = SA."Pruefungsfach4"
     ```
 
-## Columns
+## Spalten
 
-This view contains 22 columns.
+Diese Ansicht hat 22 Spalten.
 
 **`ID`**
 
@@ -205,7 +205,7 @@ This view contains 22 columns.
 
 :   [`CHAR(1)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    Value | Description
+    Wert | Beschreibung
     - | -
     W | Weiblich
     M | Weiblich

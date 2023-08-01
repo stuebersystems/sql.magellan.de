@@ -1,8 +1,8 @@
-# Table **SchuelerBBSZeugnisformulare**
+# Tabelle **SchuelerBBSZeugnisformulare**
 
-## Columns
+## Spalten
 
-This table contains 5 columns.
+Diese Tabelle hat 5 Spalten.
 
 **`Mandant`**
 
@@ -34,17 +34,17 @@ This table contains 5 columns.
 
     Verweis auf Tabelle [Zeugnisformulare](../../tables/zeugnisformulare)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`SchuelerBBSZeugnisformulare`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 3 Fremdschlüssel.
 
 **`FK_SCHUELERBBSZ_FORMULAR`**
 
@@ -58,9 +58,9 @@ This table has one foreign key.
 
 :   `Mandant, Schueler` » [`SchuelerBBS (Mandant, Schueler)`](../../tables/schuelerbbs) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_SCHUELERBBSZ_BBS`**
 

@@ -1,8 +1,8 @@
-# Table **PersonenMedizinDaten**
+# Tabelle **PersonenMedizinDaten**
 
-## Columns
+## Spalten
 
-This table contains 11 columns.
+Diese Tabelle hat 11 Spalten.
 
 **`Mandant`**
 
@@ -60,17 +60,17 @@ This table contains 11 columns.
 
 :   [`DATE`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-datetime)
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`PersonenMedizinDaten`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 3 Fremdschlüssel.
 
 **`FK_PERSONENMEDIZINDATEN_ART`**
 
@@ -84,9 +84,9 @@ This table has one foreign key.
 
 :   `Mandant, Person` » [`Personen (ID, Mandant)`](../../tables/personen) · `ON UPDATE RESTRICT` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_PERSONENMEDDAT_PERSON`**
 

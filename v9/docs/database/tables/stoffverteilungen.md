@@ -1,8 +1,8 @@
-# Table **Stoffverteilungen**
+# Tabelle **Stoffverteilungen**
 
-## Columns
+## Spalten
 
-This table contains 10 columns.
+Diese Tabelle hat 10 Spalten.
 
 **`Mandant`**
 
@@ -60,17 +60,17 @@ This table contains 10 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`Stoffverteilungen`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_STOFF_KLASSENSTUFE`**
 
@@ -80,9 +80,9 @@ This table has one foreign key.
 
 :   `Schulart` » [`Schularten (Kuerzel)`](../../tables/schularten) · `ON UPDATE RESTRICT` · `ON DELETE SET NULL`
 
-## Indices
+## Indizes
 
-This table has 4 indices.
+Diese Tabelle hat 4 Indizes.
 
 **`FK_STOFF_ABTEILUNG`**
 

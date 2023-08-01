@@ -1,8 +1,8 @@
-# Table **RegionTypes**
+# Tabelle **RegionTypes**
 
-## Columns
+## Spalten
 
-This table contains 11 columns.
+Diese Tabelle hat 11 Spalten.
 
 **`ID`**
 
@@ -68,25 +68,25 @@ This table contains 11 columns.
 
     Datensatz ist gültig bis
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`RegionTypes`**
 
 :   `ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat einen Fremdschlüssel.
 
 **`FK_REGIONTYPES_COUNTRY`**
 
 :   `Land` » [`Staaten (ID)`](../../tables/staaten) · `ON UPDATE CASCADE` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 2 indices.
+Diese Tabelle hat 2 Indizes.
 
 **`FK_REGIONTYPES_COUNTRY`**
 

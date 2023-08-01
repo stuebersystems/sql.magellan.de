@@ -1,8 +1,8 @@
-# Table **StudentCourseAttendance**
+# Tabelle **StudentCourseAttendance**
 
-## Columns
+## Spalten
 
-This table contains 8 columns.
+Diese Tabelle hat 8 Spalten.
 
 **`Mandant`**
 
@@ -50,17 +50,17 @@ This table contains 8 columns.
 
     Arbeitsmittel vergessen?
 
-## Primary key
+## Primärschlüssel
 
-This table has a primary key.
+Diese Tabelle hat einen Primärschlüssel.
 
 **`StudentCourseAttendance`**
 
 :   `Mandant, ID`
 
-## Foreign keys
+## Fremdschlüssel
 
-This table has one foreign key.
+Diese Tabelle hat 2 Fremdschlüssel.
 
 **`FK_STUDENTCOURSEATT_STUDENTTERM`**
 
@@ -70,9 +70,9 @@ This table has one foreign key.
 
 :   `ClassCourse, Mandant` » [`tblClassCourses (ID, Mandant)`](../../tables/tblclasscourses) · `ON UPDATE CASCADE` · `ON DELETE CASCADE`
 
-## Indices
+## Indizes
 
-This table has 3 indices.
+Diese Tabelle hat 3 Indizes.
 
 **`FK_STUDENTCOURSEATT_CLASSCOURSE`**
 
