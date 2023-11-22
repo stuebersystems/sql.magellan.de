@@ -13,14 +13,3 @@ In folgenden Situationen können diese Informationen hilfreich sein:
 * Sie möchten einen detaillierten Überblick darüber haben, welche Daten wo und wie in MAGELLAN gespeichert werden.
 
 Bitte beachten Sie, dass die in diesen Unterlagen enthaltenen Angaben und Daten ohne vorherige Ankündigung geändert werden können.
-
-          "ValidValues": [
-            {
-              "Value": "N",
-              "Description": "Nein"
-            },
-            {
-              "Value": "J",
-              "Description": "Ja"
-            }
-          ]
