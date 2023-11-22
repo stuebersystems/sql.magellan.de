@@ -424,6 +424,16 @@ Diese Ansicht hat 306 Spalten.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
+    Wert | Beschreibung
+    - | -
+    0 | Bewerber \(unbestätigt\)
+    1 | Bewerber
+    2 | Neu
+    3 | Eingeschult
+    4 | Abgänger
+    5 | Vorlage Bewerber
+    6 | Vorlage Schüler
+
 **`Profil`**
 
 :   [`VARCHAR(20)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)

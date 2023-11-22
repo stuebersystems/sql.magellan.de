@@ -23580,7 +23580,37 @@
           "Name": "Status",
           "DataType": "SMALLINT",
           "Description": null,
-          "IsNullable": false
+          "IsNullable": false,
+          "ValidValues": [
+            {
+              "Value": "0",
+              "Description": "Bewerber (unbestätigt)"
+            },
+            {
+              "Value": "1",
+              "Description": "Bewerber"
+            },
+            {
+              "Value": "2",
+              "Description": "Neu"
+            },
+            {
+              "Value": "3",
+              "Description": "Eingeschult"
+            },
+            {
+              "Value": "4",
+              "Description": "Abgänger"
+            },
+            {
+              "Value": "5",
+              "Description": "Vorlage Bewerber"
+            },
+            {
+              "Value": "6",
+              "Description": "Vorlage Schüler"
+            }
+          ]
         },
         {
           "Name": "SYNC",
@@ -57172,7 +57202,37 @@
           "Name": "Status",
           "DataType": "SMALLINT",
           "Description": null,
-          "IsNullable": true
+          "IsNullable": true,
+          "ValidValues": [
+            {
+              "Value": "0",
+              "Description": "Bewerber (unbestätigt)"
+            },
+            {
+              "Value": "1",
+              "Description": "Bewerber"
+            },
+            {
+              "Value": "2",
+              "Description": "Neu"
+            },
+            {
+              "Value": "3",
+              "Description": "Eingeschult"
+            },
+            {
+              "Value": "4",
+              "Description": "Abgänger"
+            },
+            {
+              "Value": "5",
+              "Description": "Vorlage Bewerber"
+            },
+            {
+              "Value": "6",
+              "Description": "Vorlage Schüler"
+            }
+          ]
         },
         {
           "Name": "Profil",
