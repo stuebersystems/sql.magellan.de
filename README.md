@@ -4,7 +4,7 @@ Dies ist der Quellcode zur Datenstruktur-Dokumentation von [MAGELLAN](https://ma
 
 ## SQLDocs unter Windows installieren
 
-1. Lade Dir die die aktuellste Version der [.NET 7 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) für Windows herunter.
+1. Lade Dir die die aktuellste Version der [.NET 8 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) für Windows herunter.
 
 2. Starte das Installationspaket und beantworte alle Fragen.
 
@@ -40,6 +40,7 @@ Dieses Repository ist ein Git-Repository. Um das Repository auf deinem lokalen C
 
 Die Rohinformationen zur Datenstruktur findest Du in folgenden Dateien:
 
++ `c:\docs\sql.magellan.de\v11\dbschema.json`: Datenstruktur für MAGELLAN 11.
 + `c:\docs\sql.magellan.de\v10\dbschema.json`: Datenstruktur für MAGELLAN 10.
 + `c:\docs\sql.magellan.de\v9\dbschema.json`: Datenstruktur für MAGELLAN 9.
 + `c:\docs\sql.magellan.de\v8\dbschema.json`: Datenstruktur für MAGELLAN 8.
@@ -47,9 +48,9 @@ Die Rohinformationen zur Datenstruktur findest Du in folgenden Dateien:
 
 Jede Änderung an einer dieser vier Dateien muss mit SQLDocs in das jeweilige MkDocs-Projekt übertragen werden.
 
-Im folgenden die Vorgehensweise für MAGELLAN 10:
+Im folgenden die Vorgehensweise für MAGELLAN 11:
 
-1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\sql.magellan.de\v10`.
+1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\sql.magellan.de\v11`.
 
 2. Tippe den Befehl `sqldocs build-mkdocs -l de -db firebird -s dbschema.json -o .` ein. Das MkDocs-Projekt wird aktualisiert.
 
@@ -59,9 +60,9 @@ Anschließend kannst Du mit MkDocs die Dokumentation neu generieren.
 
 Du hast Python und MkDocs installiert und Du hast dieses Repository geklont oder als Zip-Archiv heruntergeladen. Jetzt kannst Du die Dokumentation lokal auf deinem Rechner generieren:
 
-Im folgenden die Vorgehensweise für MAGELLAN 10:
+Im folgenden die Vorgehensweise für MAGELLAN 11:
 
-1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\sql.magellan.de\v10`.
+1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\sql.magellan.de\v11`.
 
 2. Tippe den Befehl `mkdocs build` ein. Die Dokumentation wird neu generiert.
 
