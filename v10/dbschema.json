@@ -47532,6 +47532,14 @@
               "Description": "Herr Prof. Dr."
             },
             {
+              "Value": "8",
+              "Description": "Familie"
+            },
+            {
+              "Value": "9",
+              "Description": "Herr und Frau"
+            },
+            {
               "Value": ":",
               "Description": "Ms."
             },
@@ -47542,6 +47550,18 @@
             {
               "Value": "<",
               "Description": "Mr."
+            },
+            {
+              "Value": "=",
+              "Description": "Mr. and Ms."
+            },
+            {
+              "Value": ">",
+              "Description": "Mr. and Mrs."
+            },
+            {
+              "Value": "?",
+              "Description": "Eheleute"
             }
           ]
         },

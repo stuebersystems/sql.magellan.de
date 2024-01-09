@@ -84,9 +84,14 @@ Diese Tabelle hat 99 Spalten.
     5 | Herr Prof\.
     6 | Frau Prof\. Dr\.
     7 | Herr Prof\. Dr\.
+    8 | Familie
+    9 | Herr und Frau
     : | Ms\.
     ; | Mrs\.
     < | Mr\.
+    = | Mr\. and Ms\.
+    > | Mr\. and Mrs\.
+    ? | Eheleute
 
 **`Geschlecht`**
 
