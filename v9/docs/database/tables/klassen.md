@@ -1,6 +1,6 @@
 # Tabelle **Klassen**
 
-Speichert die Klassen in MAGELLAN
+Speichert die Klassen in Magellan
 
 ## Spalten
 

@@ -1,6 +1,6 @@
 # Änderungen der Datenstruktur
 
-Dokumentierte Änderungen von MAGELLAN 7 auf 8.
+Dokumentierte Änderungen von Magellan 7 auf 8.
 
 ## Tabellen
 

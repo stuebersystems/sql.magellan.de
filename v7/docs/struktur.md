@@ -1,8 +1,8 @@
 # Die Struktur
 
-Die Datengrundlage von MAGELLAN 7 ist das relationale Datenbank-Management-System [Firebird](https://firebirdsql.org/) in der Version 2.5. Firebird ist Open Source und wird durch eine internationale Community aktiv weiterentwickelt.
+Die Datengrundlage von Magellan 7 ist das relationale Datenbank-Management-System [Firebird](https://firebirdsql.org/) in der Version 2.5. Firebird ist Open Source und wird durch eine internationale Community aktiv weiterentwickelt.
 
-Der standardmäßige Dateiname der Datenbank lautet `MAGELLAN7.fdb`. Der Zugriff erfolgt durch native Bibliotheken oder aber durch [ODBC](https://learn.microsoft.com/en-us/sql/odbc/microsoft-open-database-connectivity-odbc). Crystal Reports greift über ODBC auf die MAGELLAN-Datenbank zu. Die dafür benötigte Datenquelle wird von MAGELLAN automatisch eingerichtet.
+Der standardmäßige Dateiname der Datenbank lautet `Magellan7.fdb`. Der Zugriff erfolgt durch native Bibliotheken oder aber durch [ODBC](https://learn.microsoft.com/en-us/sql/odbc/microsoft-open-database-connectivity-odbc). Crystal Reports greift über ODBC auf die Magellan-Datenbank zu. Die dafür benötigte Datenquelle wird von Magellan automatisch eingerichtet.
 
 ## Tabellen
 
@@ -12,14 +12,14 @@ Tabellen (Englisch: *table*) sind Datenbankobjekte, die sämtliche in einer Date
 
 Ansichten (Englisch *view*) sind virtuelle Tabellen, deren Inhalt durch eine Abfrage definiert werden. Wie bei einer Tabelle besteht auch eine Ansicht aus Zeilen und Spalten. Die Daten stammen aus Tabellen, auf die in der definierenden Abfrage verwiesen wird. 
 
-Oft wiederholte und evtl. komplexere Abfragen können schneller von der Datenbank verarbeitet werden, wenn diese als Ansichten gespeichert sind. Ein weiterer Grund für den Einsatz der Ansichten in MAGELLAN ist die Rechteverwaltung. Ansichten können Teile einer oder mehrerer Tabellen anzeigen und mit Rechten versehen werden. So können Ansichten auf nur einen Teil der Tabellen gelegt werden und diese in entsprechenden Situation, in dem ein Benutzer weniger Daten sehen darf, diese nutzen.
+Oft wiederholte und evtl. komplexere Abfragen können schneller von der Datenbank verarbeitet werden, wenn diese als Ansichten gespeichert sind. Ein weiterer Grund für den Einsatz der Ansichten in Magellan ist die Rechteverwaltung. Ansichten können Teile einer oder mehrerer Tabellen anzeigen und mit Rechten versehen werden. So können Ansichten auf nur einen Teil der Tabellen gelegt werden und diese in entsprechenden Situation, in dem ein Benutzer weniger Daten sehen darf, diese nutzen.
 
 !!! Beispiel
 
-    Als Beispiel sei hier das Zusammenspiel zwischen der Tabelle `tblLehrer` und der Ansicht `Lehrer` genannt. Die Tabelle `tblLehrer` speichert alle Lehrer in MAGELLAN. Die Ansicht `Lehrer` definiert eine Sichtweise auf die Tabelle `tblLehrer`. Während die Tabelle `tblLehrer` stets alle Lehrer auflistet, sorgt die Ansicht `Lehrer` dafür, dass in den meisten Fällen nur der Lehrer aufgelistet wird, der zum aktuellen Benutzer passt.
+    Als Beispiel sei hier das Zusammenspiel zwischen der Tabelle `tblLehrer` und der Ansicht `Lehrer` genannt. Die Tabelle `tblLehrer` speichert alle Lehrer in Magellan. Die Ansicht `Lehrer` definiert eine Sichtweise auf die Tabelle `tblLehrer`. Während die Tabelle `tblLehrer` stets alle Lehrer auflistet, sorgt die Ansicht `Lehrer` dafür, dass in den meisten Fällen nur der Lehrer aufgelistet wird, der zum aktuellen Benutzer passt.
 
 
-Es werden lediglich die Standardtabellen in MAGELLAN durch Ansichten repräsentiert, auf Schlüsseltabellen hingegen wird direkt zugegriffen. Ansichten verhalten sich nach außen hin genauso wie Tabellen, so dass Sie in der Regel nichts weiter beachten müssen.
+Es werden lediglich die Standardtabellen in Magellan durch Ansichten repräsentiert, auf Schlüsseltabellen hingegen wird direkt zugegriffen. Ansichten verhalten sich nach außen hin genauso wie Tabellen, so dass Sie in der Regel nichts weiter beachten müssen.
 
 ## Schlüsseltabellen
 
@@ -39,15 +39,15 @@ besitzen, sind sogenannte Schlüsseltabellen. Sie dienen dazu, die möglichen We
 
 Einige Schlüsseltabellen haben einen etwas anderen Aufbau, sie dienen aber dem gleichen Zweck. Hierzu zählen u.a. die Tabellen `Abschlussjahrgaenge`,  `Abteilungen`, `Banken`, `Berufe`, `Bildungsgaenge`, `Bezirke`, `Bundeslaender`, `Faecher`, `Fachtafeln`, `Gemeinden`, `Kreise`, `Noten`, `Sportfeste`, `Wettkämpfe` und `Verordnungen`.
 
-Schlüsseltabellen machen mehr als 50 Prozent aller Tabellen in MAGELLAN aus.
+Schlüsseltabellen machen mehr als 50 Prozent aller Tabellen in Magellan aus.
 
 ## Mandanten
 
-Mandanten spielen in MAGELLAN eine zentrale Rolle. Sie ermöglichen die Verwaltung mehrerer organisatorisch eigenständigen Einheiten in einer zentralen Datenbank. So können beispielsweise mehrere Schulen einer Stadt Ihre Daten zentral verwalten. Alle Mandanten sind in der Tabellen `Mandanten` und `MandantenSchulformen` definiert.
+Mandanten spielen in Magellan eine zentrale Rolle. Sie ermöglichen die Verwaltung mehrerer organisatorisch eigenständigen Einheiten in einer zentralen Datenbank. So können beispielsweise mehrere Schulen einer Stadt Ihre Daten zentral verwalten. Alle Mandanten sind in der Tabellen `Mandanten` und `MandantenSchulformen` definiert.
 
 ## Zeiträume
 
-Zeiträume spielen, ähnlich wie Mandanten, eine zentrale Rolle in MAGELLAN. Sie ermöglichen eine zeitraumbasierte Verwaltung Ihrer Schuldaten. In der Regel handelt es sich bei Zeiträumen um Schulhalbjahre. Durch das Wechseln der Zeiträume können Sie Daten aus dem Blickwinkel unterschiedlicher Halbjahre betrachten. So können Sie die Laufbahnentwicklung einzelner Schüler zurück bis zum Einschulungszeitpunkt betrachten, und das inklusive Fächerzuordnung, Noten und Zeugnisse. Alle Zeiträume sind in der Tabelle Zeitraeume definiert.
+Zeiträume spielen, ähnlich wie Mandanten, eine zentrale Rolle in Magellan. Sie ermöglichen eine zeitraumbasierte Verwaltung Ihrer Schuldaten. In der Regel handelt es sich bei Zeiträumen um Schulhalbjahre. Durch das Wechseln der Zeiträume können Sie Daten aus dem Blickwinkel unterschiedlicher Halbjahre betrachten. So können Sie die Laufbahnentwicklung einzelner Schüler zurück bis zum Einschulungszeitpunkt betrachten, und das inklusive Fächerzuordnung, Noten und Zeugnisse. Alle Zeiträume sind in der Tabelle Zeitraeume definiert.
 
 ## Lehrerdaten
 

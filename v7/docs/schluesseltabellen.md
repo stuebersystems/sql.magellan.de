@@ -6,7 +6,7 @@ Als Beispiel die Tabelle `Staatsangehoerigkeiten`: Deren Kürzel werden kontextb
 
 Einige dieser Schlüsselverzeichnisse sind speziell für Statistiken wichtig, deshalb halten diese die Felder „Schluessel“.
 
-Es folgt eine Liste der Schlüsselverzeichnisse in MAGELLAN mit einer Gegenüberstellung des Tabellennamens und der korrespondierenden Bezeichnung in der MAGELLAN-Oberfläche:
+Es folgt eine Liste der Schlüsselverzeichnisse in Magellan mit einer Gegenüberstellung des Tabellennamens und der korrespondierenden Bezeichnung in der Magellan-Oberfläche:
 
 Datenbanktabelle                                                            | Oberflächenbezeichnung
 --------------------------------------------------------------------------- | ----------------------

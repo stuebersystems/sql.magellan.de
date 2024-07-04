@@ -1,12 +1,12 @@
 # Auswahltabellen
 
-Auswahltabellen dienen einzig und allein dem Zweck kurzfristig für den Druck von Crystal Reports-Berichten mit den Eckdaten des Drucks gefüllt zu werden. Diese Eckdaten entsprechen der Auswahl der Druckdaten in Ihrem MAGELLAN-Modul (MAGELLAN, MAGELLAN-Bibliothek, MAGELLAN-Haushalt & Inventar etc.). Die Daten dienen als Ausgang, um Berichte in Crystal Reports zu erzeugen.
+Auswahltabellen dienen einzig und allein dem Zweck kurzfristig für den Druck von Crystal Reports-Berichten mit den Eckdaten des Drucks gefüllt zu werden. Diese Eckdaten entsprechen der Auswahl der Druckdaten in Ihrem Magellan-Modul (Magellan, Magellan-Bibliothek, Magellan-Haushalt & Inventar etc.). Die Daten dienen als Ausgang, um Berichte in Crystal Reports zu erzeugen.
 
 Alle folgenden Tabellen werden über ihre Ansichten angesprochen. Die Benennung der Ansichten ist gleich der Tabellen ohne den Prefix `tbl`.
 
 !!! info ""
 
-    Auswahltabellen und Ansichten haben temporären Charakter. Sie speichern die aktuelle Datensatz-Auswahl in MAGELLAN und dienen als Schnittstelle für die Berichtserstellung in Crystal Reports. Wenn Sie beispielsweise in der Schüler-Gesamtliste mehrere Schüler markieren und dann einen Bericht drucken wollen, so werden die Verweise auf die markierten Schüler in der entsprechenden Auswahl-Ansicht festgehalten. 
+    Auswahltabellen und Ansichten haben temporären Charakter. Sie speichern die aktuelle Datensatz-Auswahl in Magellan und dienen als Schnittstelle für die Berichtserstellung in Crystal Reports. Wenn Sie beispielsweise in der Schüler-Gesamtliste mehrere Schüler markieren und dann einen Bericht drucken wollen, so werden die Verweise auf die markierten Schüler in der entsprechenden Auswahl-Ansicht festgehalten. 
 
 Es existieren folgende Auswahl-Ansichten:
 

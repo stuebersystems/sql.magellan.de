@@ -123,7 +123,7 @@ Diese Tabelle hat 28 Spalten.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes) · `NOT NULL`
 
-    Teilnahme in MyMAGELLAN
+    Teilnahme in MyMagellan
 
     Wert | Beschreibung
     - | -

@@ -74,7 +74,7 @@ Diese Tabelle hat 18 Spalten.
     18 | Verhältnis8
     19 | Verhältnis9
     20 | Verhältnis10
-    11\-20 | Werte können in MAGELLAN angepasst werden
+    11\-20 | Werte können in Magellan angepasst werden
     21 | Onkel
     22 | Tante
     23 | Bruder

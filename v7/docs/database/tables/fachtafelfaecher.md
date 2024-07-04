@@ -108,13 +108,13 @@ Diese Tabelle hat 40 Spalten.
 
 :   [`FLOAT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-floattypes)
 
-    Sollwert \(= Soll aus DAVINCI\)
+    Sollwert \(= Soll aus DaVinci\)
 
 **`Angleichung`**
 
 :   [`FLOAT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-floattypes)
 
-    Angleichungswert \(= Angleichung aus DAVINCI\)
+    Angleichungswert \(= Angleichung aus DaVinci\)
 
 **`Bemerkung`**
 

@@ -32,7 +32,7 @@ Diese Tabelle hat 7 Spalten.
 
 :   [`FLOAT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-floattypes)
 
-    Iststunden \(=Lehrer\-Ist aus DAVINCI\)
+    Iststunden \(=Lehrer\-Ist aus DaVinci\)
 
 **`Bemerkung`**
 

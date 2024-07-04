@@ -1,6 +1,6 @@
 # Änderungen der Datenstruktur
 
-Dokumentierte Änderungen von MAGELLAN 10 auf 11.
+Dokumentierte Änderungen von Magellan 10 auf 11.
 
 ## Tabellen
 

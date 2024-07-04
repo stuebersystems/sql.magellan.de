@@ -58,13 +58,13 @@ Diese Tabelle hat 12 Spalten.
 
 :   [`FLOAT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-floattypes)
 
-    Sollstunden \(=Soll aus DAVINCI\)
+    Sollstunden \(=Soll aus DaVinci\)
 
 **`Angleichung`**
 
 :   [`FLOAT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-floattypes)
 
-    Angleichung \(=Angleichung aus DAVINCI\)
+    Angleichung \(=Angleichung aus DaVinci\)
 
 **`Bemerkung`**
 

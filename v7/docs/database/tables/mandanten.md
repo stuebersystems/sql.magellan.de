@@ -234,7 +234,7 @@ Diese Tabelle hat 48 Spalten.
 
 :   [`VARCHAR(300)`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-chartypes)
 
-    DAVINCI\-Datei des Mandanten
+    DaVinci\-Datei des Mandanten
 
 **`KBLetzteSynchronisation`**
 

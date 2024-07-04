@@ -1,6 +1,6 @@
-# MAGELLAN Datenstruktur
+# Magellan-Datenstruktur
 
-Dies ist der Quellcode zur Datenstruktur-Dokumentation von [MAGELLAN](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [SQLDocs](https://github.com/openpotato/sqldocs) und [MkDocs](https://www.mkdocs.org/) realisiert.
+Dies ist der Quellcode zur Datenstruktur-Dokumentation von [Magellan](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [SQLDocs](https://github.com/openpotato/sqldocs) und [MkDocs](https://www.mkdocs.org/) realisiert.
 
 ## SQLDocs unter Windows installieren
 
@@ -40,15 +40,15 @@ Dieses Repository ist ein Git-Repository. Um das Repository auf deinem lokalen C
 
 Die Rohinformationen zur Datenstruktur findest Du in folgenden Dateien:
 
-+ `c:\docs\sql.magellan.de\v11\dbschema.json`: Datenstruktur für MAGELLAN 11.
-+ `c:\docs\sql.magellan.de\v10\dbschema.json`: Datenstruktur für MAGELLAN 10.
-+ `c:\docs\sql.magellan.de\v9\dbschema.json`: Datenstruktur für MAGELLAN 9.
-+ `c:\docs\sql.magellan.de\v8\dbschema.json`: Datenstruktur für MAGELLAN 8.
-+ `c:\docs\sql.magellan.de\v7\dbschema.json`: Datenstruktur für MAGELLAN 7.
++ `c:\docs\sql.magellan.de\v11\dbschema.json`: Datenstruktur für Magellan 11.
++ `c:\docs\sql.magellan.de\v10\dbschema.json`: Datenstruktur für Magellan 10.
++ `c:\docs\sql.magellan.de\v9\dbschema.json`: Datenstruktur für Magellan 9.
++ `c:\docs\sql.magellan.de\v8\dbschema.json`: Datenstruktur für Magellan 8.
++ `c:\docs\sql.magellan.de\v7\dbschema.json`: Datenstruktur für Magellan 7.
 
 Jede Änderung an einer dieser vier Dateien muss mit SQLDocs in das jeweilige MkDocs-Projekt übertragen werden.
 
-Im folgenden die Vorgehensweise für MAGELLAN 11:
+Im folgenden die Vorgehensweise für Magellan 11:
 
 1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\sql.magellan.de\v11`.
 
@@ -60,7 +60,7 @@ Anschließend kannst Du mit MkDocs die Dokumentation neu generieren.
 
 Du hast Python und MkDocs installiert und Du hast dieses Repository geklont oder als Zip-Archiv heruntergeladen. Jetzt kannst Du die Dokumentation lokal auf deinem Rechner generieren:
 
-Im folgenden die Vorgehensweise für MAGELLAN 11:
+Im folgenden die Vorgehensweise für Magellan 11:
 
 1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\sql.magellan.de\v11`.
 

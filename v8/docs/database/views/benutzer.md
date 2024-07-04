@@ -137,7 +137,7 @@ Diese Ansicht hat 27 Spalten.
 
 :   [`SMALLINT`](https://firebirdsql.org/file/documentation/html/en/refdocs/fblangref40/firebird-40-language-reference.html#fblangref40-datatypes-inttypes)
 
-    Teilnahme in MyMAGELLAN
+    Teilnahme in MyMagellan
 
     Wert | Beschreibung
     - | -

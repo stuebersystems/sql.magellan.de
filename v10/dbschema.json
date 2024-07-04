@@ -1,7 +1,7 @@
 {
-  "Name": "MAGELLAN 10 Datenstruktur",
+  "Name": "Magellan 10 Datenstruktur",
   "Version": "10",
-  "Description": "MAGELLAN 10 Datenstruktur",
+  "Description": "Magellan 10 Datenstruktur",
   "DbmsName": "Firebird",
   "DbmsVersion": "4.0",
   "Tables": [
@@ -12130,7 +12130,7 @@
     },
     {
       "Name": "Klassen",
-      "Description": "Speichert die Klassen in MAGELLAN",
+      "Description": "Speichert die Klassen in Magellan",
       "Columns": [
         {
           "Name": "Mandant",
@@ -44198,7 +44198,7 @@
             },
             {
               "Value": "11-20",
-              "Description": "Werte können in MAGELLAN angepasst werden"
+              "Description": "Werte können in Magellan angepasst werden"
             },
             {
               "Value": "21",
@@ -54242,7 +54242,7 @@
         {
           "Name": "Status",
           "DataType": "SMALLINT",
-          "Description": "Teilnahme in MyMAGELLAN",
+          "Description": "Teilnahme in MyMagellan",
           "IsNullable": false,
           "ValidValues": [
             {
@@ -60359,7 +60359,7 @@
         {
           "Name": "Status",
           "DataType": "SMALLINT",
-          "Description": "Teilnahme in MyMAGELLAN",
+          "Description": "Teilnahme in MyMagellan",
           "IsNullable": true,
           "ValidValues": [
             {

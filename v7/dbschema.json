@@ -1,7 +1,7 @@
 {
-  "Name": "MAGELLAN 7 Datenstruktur",
+  "Name": "Magellan 7 Datenstruktur",
   "Version": "7",
-  "Description": "MAGELLAN 7 Datenstruktur",
+  "Description": "Magellan 7 Datenstruktur",
   "DbmsName": "Firebird",
   "DbmsVersion": "2.5",
   "Tables": [
@@ -11110,7 +11110,7 @@
     },
     {
       "Name": "Klassen",
-      "Description": "Speichert die Klassen in MAGELLAN",
+      "Description": "Speichert die Klassen in Magellan",
       "Columns": [
         {
           "Name": "Mandant",
@@ -39208,7 +39208,7 @@
             },
             {
               "Value": "11-20",
-              "Description": "Werte können in MAGELLAN angepasst werden"
+              "Description": "Werte können in Magellan angepasst werden"
             },
             {
               "Value": "21",
@@ -48452,7 +48452,7 @@
         {
           "Name": "Status",
           "DataType": "SMALLINT",
-          "Description": "Teilnahme in MyMAGELLAN",
+          "Description": "Teilnahme in MyMagellan",
           "IsNullable": false,
           "ValidValues": [
             {
@@ -53739,7 +53739,7 @@
         {
           "Name": "Status",
           "DataType": "SMALLINT",
-          "Description": "Teilnahme in MyMAGELLAN",
+          "Description": "Teilnahme in MyMagellan",
           "IsNullable": true,
           "ValidValues": [
             {
