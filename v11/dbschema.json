@@ -67274,6 +67274,14 @@
             {
               "Value": "13",
               "Description": "Ablehnungsbescheid"
+            },
+            {
+              "Value": "14",
+              "Description": "Einladung"
+            },
+            {
+              "Value": "15",
+              "Description": "Klärungsbedarf"
             }
           ]
         },
