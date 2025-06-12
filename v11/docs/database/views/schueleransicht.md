@@ -628,6 +628,8 @@ Diese Ansicht hat 334 Spalten.
     11 | Abgemeldet
     12 | Rückmeldung
     13 | Ablehnungsbescheid
+    14 | Einladung
+    15 | Klärungsbedarf
 
 **`BewerberStatusAm`**
 

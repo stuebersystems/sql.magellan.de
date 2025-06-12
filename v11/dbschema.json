@@ -8305,13 +8305,13 @@
         {
           "Name": "Soll",
           "DataType": "FLOAT",
-          "Description": "Sollwert (= Soll aus DAVINCI)",
+          "Description": "Sollwert (= Soll aus DaVinci)",
           "IsNullable": true
         },
         {
           "Name": "Angleichung",
           "DataType": "FLOAT",
-          "Description": "Angleichungswert (= Angleichung aus DAVINCI)",
+          "Description": "Angleichungswert (= Angleichung aus DaVinci)",
           "IsNullable": true
         },
         {
@@ -9334,7 +9334,7 @@
         {
           "Name": "KeinAbgleich",
           "DataType": "CHAR(1)",
-          "Description": "Kein Abgleich mit DAVINCI?",
+          "Description": "Kein Abgleich mit DaVinci?",
           "IsNullable": true,
           "ValidValues": [
             {
@@ -17573,7 +17573,7 @@
         {
           "Name": "daVinciDatei",
           "DataType": "VARCHAR(300)",
-          "Description": "DAVINCI-Datei des Mandanten",
+          "Description": "DaVinci-Datei des Mandanten",
           "IsNullable": true
         },
         {
@@ -51346,13 +51346,13 @@
         {
           "Name": "Soll",
           "DataType": "FLOAT",
-          "Description": "Sollstunden (=Soll aus DAVINCI)",
+          "Description": "Sollstunden (=Soll aus DaVinci)",
           "IsNullable": true
         },
         {
           "Name": "Angleichung",
           "DataType": "FLOAT",
-          "Description": "Angleichung (=Angleichung aus DAVINCI)",
+          "Description": "Angleichung (=Angleichung aus DaVinci)",
           "IsNullable": true
         },
         {
@@ -51576,7 +51576,7 @@
         {
           "Name": "Ist",
           "DataType": "FLOAT",
-          "Description": "Iststunden (=Lehrer-Ist aus DAVINCI)",
+          "Description": "Iststunden (=Lehrer-Ist aus DaVinci)",
           "IsNullable": true
         },
         {
