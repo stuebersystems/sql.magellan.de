@@ -33,6 +33,7 @@ theme:
         icon: material/brightness-4
         name: In den Hellmodus wechseln
   font: false
+  custom_dir: overrides
 
 extra:
   version:
