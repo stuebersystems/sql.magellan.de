@@ -1,5 +1,5 @@
 pool:
-  vmImage: 'windows-2022'
+  vmImage: 'windows-latest'
     
 variables:
 - group: 'github-config'
@@ -71,9 +71,18 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      mike deploy v11 latest
+      mike deploy v11
     pwsh: true
     workingDirectory: '$(Build.SourcesDirectory)/v11'
+- task: PowerShell@2
+  displayName: Build v12 with Mike
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  inputs:
+    targetType: 'inline'
+    script: |
+      mike deploy v12 latest
+    pwsh: true
+    workingDirectory: '$(Build.SourcesDirectory)/v12'
 - task: PowerShell@2
   displayName: 'Push to GitHub'
   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))

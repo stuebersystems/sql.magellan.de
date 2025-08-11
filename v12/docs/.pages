@@ -1,0 +1,7 @@
+nav:
+   - Einführung: index.md
+   - Gesamtstruktur: struktur.md
+   - Schlüsselverzeichnisse: schluesseltabellen.md
+   - Auswahltabellen: auswahltabellen.md
+   - Neuerungen: neuerungen.md
+   - Datenbank: database
