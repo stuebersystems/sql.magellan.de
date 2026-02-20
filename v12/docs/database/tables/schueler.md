@@ -645,6 +645,9 @@ Diese Tabelle hat 315 Spalten.
     11 | Abgemeldet
     12 | Rückmeldung
     13 | Ablehnungsbescheid
+    14 | Einladung
+    15 | Klärungsbedarf
+    16 | Registrierung
 
 **`BewerberHFNote`**
 
@@ -1812,6 +1815,7 @@ Diese Tabelle hat 315 Spalten.
     4 | Abgänger
     5 | Vorlage Bewerber
     6 | Vorlage Schüler
+    7 | Abwesend
 
 **`SYNC`**
 
